@@ -1,6 +1,0 @@
-C:\Users\Martin\Desktop\Telerik\CSS\Exam2014\Problem\bin\Problem.dll.config
-C:\Users\Martin\Desktop\Telerik\CSS\Exam2014\Problem\bin\Problem.dll
-C:\Users\Martin\Desktop\Telerik\CSS\Exam2014\Problem\bin\Problem.pdb
-C:\Users\Martin\Desktop\Telerik\CSS\Exam2014\Problem\obj\Debug\Problem1.csprojResolveAssemblyReference.cache
-C:\Users\Martin\Desktop\Telerik\CSS\Exam2014\Problem\obj\Debug\Problem.dll
-C:\Users\Martin\Desktop\Telerik\CSS\Exam2014\Problem\obj\Debug\Problem.pdb
