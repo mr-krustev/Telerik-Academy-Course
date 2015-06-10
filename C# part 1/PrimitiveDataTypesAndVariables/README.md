@@ -1,113 +1,100 @@
-Homework: Introduction to Programming
-========
+Homework: Primitive Data Types and Variables
+============================================
 
-### Problem 1.	Play with Visual Studio
-*	Install Visual Studio on your laptop or home computer. Go to the official [Visual Studio](http://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx) site and download the __Community 2013 with Update 4__ version.
-*	Start Visual Studio and familiarize yourself with it. Create a simple C# program (console application), compile and run it.
+### Problem 1.	Declare Variables
+*	Declare five variables choosing for each of them the most appropriate of the types `byte, sbyte, short, ushort, int, uint, long, ulong` to represent the following values: `52130, -115, 4825932, 97, -10000`.
+*	Choose a large enough type for each number to ensure it will fit in it. Try to compile the code.
 
-You do not have to submit anything in your homework for this problem.
+Submit the source code of your Visual Studio project as part of your homework submission.
 
-### Problem 2.	Blank Solution in Visual Studio
-*	Create a blank solution in Visual Studio called `“Intro-Programming-Homework”`. This solution will hold all your homework projects, code and files. For each problem (exercises) add a separate project with self-descriptive name like `“Hello-World”` and `“Print-Your-Name”`.
-	
-	You do not have to submit anything in your homework for this problem.
+### Problem 2.	Float or Double?
+*	Which of the following values can be assigned to a variable of type `float` and which to a variable of type `double`: `34.567839023, 12.345, 8923.1234857, 3456.091`?
+*	Write a program to assign the numbers in variables and print them to ensure no precision is lost.
 
-### Problem 3.	Play with MSDN Library
-*	Play with [Microsoft Developer Network (MSDN)](http://msdn.microsoft.com/library)  Library Documentation.
-	*	Find information about Console.WriteLine() method in MSDN.
-	*	Find information about the Console class.
-	*	Find information about the class keyword.
-	
-You do not have to submit anything in your homework for this problem.
+### Problem 3.	Variable in Hexadecimal Format
+*	Declare an integer variable and assign it with the value `254` in hexadecimal format (`0x##`).
+*	Use Windows Calculator to find its hexadecimal representation.
+*	Print the variable and ensure that the result is `254`.
 
-### Problem 4.	Hello World
-*	Create, compile and run a `“Hello C#”` console application.
-*	Ensure you have named the application well (e.g. “”HelloCSharp”).
+### Problem 4.	Unicode Character
+*	Declare a character variable and assign it with the symbol that has Unicode code `42` (decimal) using the `\u00XX` syntax, and then print it.
 
-You should submit the Visual Studio project holding the HelloCSharp class as part of your homework.
+Hint: first, use the Windows Calculator to find the hexadecimal representation of `42`. The output should be `*`.
 
-### Problem 5.	Print Your Name
-*	Modify the previous application to print your name.
-*	Ensure you have named the application well (e.g. “PrintMyName”).
+### Problem 5.	Boolean Variable
+*	Declare a Boolean variable called `isFemale` and assign an appropriate value corresponding to your gender.
+*	Print it on the console.
 
-You should submit a separate project Visual Studio project holding the PrintMyName class as part of your homework.
+### Problem 6.	Strings and Objects
+*	Declare two string variables and assign them with `Hello` and `World`.
+*	Declare an object variable and assign it with the concatenation of the first two variables (mind adding an interval between).
+*	Declare a third string variable and initialize it with the value of the object variable (you should perform type casting).
 
-### Problem 6.	Print Numbers
-*	Write a program to print the numbers `1, 101 and 1001`, each at a separate line.
-*	Name the program correctly.
+### Problem 7.	Quotes in Strings
+*	Declare two string variables and assign them with following value: `The "use" of quotations causes difficulties.`
+*	Do the above in two different ways - with and without using quoted strings.
+*	Print the variables to ensure that their value was correctly defined.
 
-You should submit in your homework the Visual Studio project holding the source code of the PrintNumbers program.
+### Problem 8.	Isosceles Triangle
+*	Write a program that prints an isosceles triangle of 9 copyright symbols `©`, something like this:
 
-### Problem 7.	Print First and Last Name
-*	Create console application that prints your first and last name, each at a separate line.
-
-### Problem 8.	Square Root
-*	Create a console application that calculates and prints the square root of the number `12345`.
-*	Find in Internet “how to calculate square root in C#”.
-
-### Problem 9.	Print a Sequence
-*	Write a program that prints the first 10 members of the sequence: `2, -3, 4, -5, 6, -7, ...`
-
-### Problem 10.	Reformat C# Code
-*	Reformat the following C# code to make it readable according to the C# best practices for code formatting. Change the casing of the identifiers in the code (e.g. use PascalCase for the class name):
-HorribleCode.cs
-
-```c#
-using
-
-System;
-
-class hoRRiblEcoDe
-{
-	static
-	 void
-
-		Main()
-	{
-		Console.
-
-	WriteLine("Hi, I am horribly formatted program"
-); Console.
-	  WriteLine("Numbers and squares:")
-; for (int i = 0;
-i < 10;
-i++)
-		{
-			Console.WriteLine(i +
-				" --> " + i
-				*
-				i);
-		}
-	}
-}
+```
+   ©
+   
+  © ©
+  
+ ©   ©
+ 
+© © © ©
 ```
 
-### Problem 11.	Programming Languages
-*	Perform a research (e.g. in Google or Wikipedia) and provide a short list with information about the most popular programming languages. How similar are they to C#? How do they differ from C#?
-*	Write in a text file called `“programming-languages.txt”` at least five languages along with 2-3 sentences about each of them. Use English.
+_Note: The `©` symbol may be displayed incorrectly at the console so you may need to change the console character encoding to `UTF-8` and assign a Unicode-friendly font in the console._
 
-### Problem 12.	Development Environments
-*	Perform a research (e.g. in Google or Wikipedia) and provide a short list with popular development environments (IDEs) like Visual Studio.
-*	Write in a text file called `“list-of-IDEs.txt”` at least five IDEs along with 2-3 sentences about each of them. Use English.
+_Note: Under old versions of Windows the `©` symbol may still be displayed incorrectly, regardless of how much effort you put to fix it._
 
-### Problem 13.	C# and .NET Differences
-*	Describe the difference between C# and .NET Framework in 2-3 sentences.
-*	Write your description in a text file called `“csharp-and-dot-net-framework.txt”`. Use English.
+### Problem 9.	Exchange Variable Values
+*	Declare two integer variables `a` and `b` and assign them with `5` and `10` and after that exchange their values by using some programming logic.
+*	Print the variable values before and after the exchange.
 
-### Problem 14.*	Current Date and Time
-*	Create a console application that prints the current date and time. Find out how in Internet.
+### Problem 10.	Employee Data
+A marketing company wants to keep record of its employees. Each record would have the following characteristics:
+*	First name
+*	Last name
+*	Age (0...100)
+*	Gender (m or f)
+*	Personal ID number (e.g. 8306112507)
+*	Unique employee number (27560000…27569999)
 
-### Problem 15.*	Age after 10 Years
-*	Write a program to read your birthday from the console and print how old you are now and how old you will be after 10 years.
+Declare the variables needed to keep the information for a single employee using appropriate primitive data types. Use descriptive names. Print the data at the console.
 
-### Problem 16.*	Print Long Sequence
-*	Write a program that prints the first 1000 members of the sequence: `2, -3, 4, -5, 6, -7, …`
-*	You might need to learn how to use loops in C# (search in Internet).
+### Problem 11.	Bank Account Data
+*	A bank account has a holder name (first name, middle name and last name), available amount of money (balance), bank name, IBAN, 3 credit card numbers associated with the account.
+*	Declare the variables needed to keep the information for a single bank account using the appropriate data types and descriptive names.
 
-### Problem 17.*	Play with the Debugger in Visual Studio
-*	Write a program that prints at the console the numbers from `1 to 1000`, each at a separate line.
-*	You might need to learn how to use loops (search in Internet).
-*	Set a breakpoint in the line, which prints the next number in the Visual Studio code editor. Run the program through the debugger using the `[F5]` key. When the debugger stops at the breakpoint trace the code execution with `[F10]` key.
+### Problem 12.	Null Values Arithmetic
+*	Create a program that assigns null values to an integer and to a double variable. 
+*	Try to print these variables at the console. 
+*	Try to add some number or the null literal to these variables and print the result.
 
-You do not have to submit anything in your homework for this problem. Just play with the debugger to learn how it works.
+### Problem 13.*	Comparing Floats
+*	Write a program that safely compares floating-point numbers (double) with precision `eps = 0.000001`.
 
+_Note: Two floating-point numbers `a` and `b` cannot be compared directly by `a == b` because of the nature of the floating-point arithmetic. Therefore, we assume two numbers are equal if they are more closely to each other than a fixed constant `eps`._
+
+Examples:
+
+|     Number a     |     Number b     | Equal (with precision eps=0.000001) |                                          Explanation                                          |
+|:----------------:|:----------------:|:-----------------------------------:|:---------------------------------------------------------------------------------------------:|
+|    5.3           |    6.01          |    false                            |                          The difference of 0.71 is too   big (> eps)                          |
+|    5.00000001    |    5.00000003    |    true                             |    The difference 0.00000002 < eps                                                            |
+|    5.00000005    |    5.00000001    |    true                             |    The difference 0.00000004 < eps                                                            |
+|    -0.0000007    |    0.00000007    |    true                             |    The difference 0.00000077 < eps                                                            |
+|    -4.999999     |    -4.999998     |    false                            |    Border case. The difference 0.000001   == eps. We consider the numbers are   different.    |
+|    4.999999      |    4.999998      |    false                            |    Border case. The difference 0.000001   == eps. We consider the numbers are   different.    |
+
+### Problem 14.*	Print the ASCII Table
+*	Find online more information about ASCII (American Standard Code for Information Interchange) and write a program that prints the entire ASCII table of characters on the console (characters from 0 to 255).
+
+_Note: Some characters have a special purpose and will not be displayed as expected. You may skip them or display them differently._
+
+_Note: You may need to use for-loops (learn in Internet how)._

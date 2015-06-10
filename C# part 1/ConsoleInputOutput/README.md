@@ -1,113 +1,187 @@
-Homework: Introduction to Programming
-========
+Homework: Console Input / Output
+================================
 
-### Problem 1.	Play with Visual Studio
-*	Install Visual Studio on your laptop or home computer. Go to the official [Visual Studio](http://www.visualstudio.com/en-us/downloads/download-visual-studio-vs.aspx) site and download the __Community 2013 with Update 4__ version.
-*	Start Visual Studio and familiarize yourself with it. Create a simple C# program (console application), compile and run it.
+### Problem 1.	Sum of 3 Numbers
+*	Write a program that reads 3 real numbers from the console and prints their sum.
 
-You do not have to submit anything in your homework for this problem.
+_Examples:_
 
-### Problem 2.	Blank Solution in Visual Studio
-*	Create a blank solution in Visual Studio called `“Intro-Programming-Homework”`. This solution will hold all your homework projects, code and files. For each problem (exercises) add a separate project with self-descriptive name like `“Hello-World”` and `“Print-Your-Name”`.
+|      a      |   b  |   c  |  sum |
+|:-----------:|:----:|:----:|:----:|
+| 3           | 4    | 11   | 18   |
+| -2          | 0    | 3    | 1    |
+| 5.5         | 4.5  | 20.1 | 30.1 |
+
+### Problem 2.	Print Company Information
+*	A company has name, address, phone number, fax number, web site and manager. The manager has first name, last name, age and a phone number.
+*	Write a program that reads the information about a company and its manager and prints it back on the console.
+
+_Example input:_
+
+|       program       |            user            |
+|---------------------|----------------------------|
+| Company name:       | Telerik Academy            |
+| Company address:    | 31 Al. Malinov, Sofia      |
+| Phone number:       | +359 888 55 55 555         |
+| Fax number:         |                            |
+| Web site:           | http://telerikacademy.com/ |
+| Manager first name: | Nikolay                    |
+| Manager last name:  | Kostov                     |
+| Manager age:        | 25                         |
+| Manager phone:      | +359 2 981 981             |
+
+_Example output:_
+
+	Telerik Academy
+	Address: 231 Al. Malinov, Sofia
+	Tel. +359 888 55 55 555
+	Fax: (no fax)
+	Web site: http://telerikacademy.com/
+	Manager: Nikolay Kostov (age: 25, tel. +359 2 981 981)	
+
+### Problem 3.	Circle Perimeter and Area
+*	Write a program that reads the radius `r` of a circle and prints its perimeter and area formatted with `2` digits after the decimal point.
+
+_Examples:_
+
+|          r          |          perimeter         |  area |
+|:-------------------:|:--------------------------:|:-----:|
+| 2                   | 12.57                      | 12.57 |
+| 3.5                 | 21.99                      | 38.48 |
+
+### Problem 4.	Number Comparer
+*	Write a program that gets two numbers from the console and prints the greater of them.
+*	Try to implement this without if statements.
+
+_Examples:_
+
+|  a  |  b  | greater |
+|:---:|:---:|:-------:|
+| 5   | 6   | 6       |
+| 10  | 5   | 10      |
+| 0   | 0   | 0       |
+| -5  | -2  | -2      |
+| 1.5 | 1.6 | 1.6     |
+
+### Problem 5.	Formatting Numbers
+*	Write a program that reads 3 numbers:
+	*	integer `a` (0 <= a <= 500)
+	*	floating-point `b`
+	*	floating-point `c` 
+*	The program then prints them in 4 virtual columns on the console. Each column should have a width of 10 characters.	
+	*	The number `a` should be printed in hexadecimal, left aligned
+	*	Then the number `a` should be printed in binary form, padded with zeroes
+	*	The number `b` should be printed with 2 digits after the decimal point, right aligned
+	*	The number c should be printed with 3 digits after the decimal point, left aligned. 
 	
-	You do not have to submit anything in your homework for this problem.
+_Examples:_
 
-### Problem 3.	Play with MSDN Library
-*	Play with [Microsoft Developer Network (MSDN)](http://msdn.microsoft.com/library)  Library Documentation.
-	*	Find information about Console.WriteLine() method in MSDN.
-	*	Find information about the Console class.
-	*	Find information about the class keyword.
-	
-You do not have to submit anything in your homework for this problem.
+|  a  |    b    |    c    |                      result                    |
+|:---:|:-------:|:-------:|------------------------------------------------|
+| 254 | 11.6    | 0.5     | `FE        |0011111110|     11.60|0.500     |` |
+| 499 | -0.5559 | 10000   | `1F3       |0111110011|     -0.56|10000.000 |` |
+| 0   | 3       | -0.1234 | `0         |0000000000|      3.00|-0.123    |` |
 
-### Problem 4.	Hello World
-*	Create, compile and run a `“Hello C#”` console application.
-*	Ensure you have named the application well (e.g. “”HelloCSharp”).
+### Problem 6.	Quadratic Equation
+*	Write a program that reads the coefficients `a`, `b` and `c` of a quadratic equation ax<sup>2</sup> + bx + c = 0 and solves it (prints its real roots).
 
-You should submit the Visual Studio project holding the HelloCSharp class as part of your homework.
+_Examples:_
 
-### Problem 5.	Print Your Name
-*	Modify the previous application to print your name.
-*	Ensure you have named the application well (e.g. “PrintMyName”).
+|   a  |  b  |  c  |     roots     |
+|:----:|:---:|:---:|---------------|
+| 2    | 5   | -3  | x1=-3; x2=0.5 |
+| -1   | 3   | 0   | x1=3; x2=0    |
+| -0.5 | 4   | -8  | x1=x2=4       |
+| 5    | 2   | 8   | no real roots |
 
-You should submit a separate project Visual Studio project holding the PrintMyName class as part of your homework.
+### Problem 7.	Sum of 5 Numbers
+*	Write a program that enters 5 numbers (given in a single line, separated by a space), calculates and prints their sum.
 
-### Problem 6.	Print Numbers
-*	Write a program to print the numbers `1, 101 and 1001`, each at a separate line.
-*	Name the program correctly.
+_Examples:_
 
-You should submit in your homework the Visual Studio project holding the source code of the PrintNumbers program.
+|      numbers      |  sum  |
+|-------------------|-------|
+| 1 2 3 4 5         | 15    |
+| 10 10 10 10 10    | 50    |
+| 1.5 3.14 8.2 -1 0 | 11.84 |
 
-### Problem 7.	Print First and Last Name
-*	Create console application that prints your first and last name, each at a separate line.
+### Problem 8.	Numbers from 1 to n
+*	Write a program that reads an integer number `n` from the console and prints all the numbers in the interval `[1..n]`, each on a single line.
 
-### Problem 8.	Square Root
-*	Create a console application that calculates and prints the square root of the number `12345`.
-*	Find in Internet “how to calculate square root in C#”.
+_Note: You may need to use a for-loop._
 
-### Problem 9.	Print a Sequence
-*	Write a program that prints the first 10 members of the sequence: `2, -3, 4, -5, 6, -7, ...`
+_Examples:_
 
-### Problem 10.	Reformat C# Code
-*	Reformat the following C# code to make it readable according to the C# best practices for code formatting. Change the casing of the identifiers in the code (e.g. use PascalCase for the class name):
-HorribleCode.cs
+| input | output |
+|-------|--------|
+| 3     | 1      |
+|       | 2      |
+|       | 3      |
+| 5     | 1      |
+|       | 2      |
+|       | 3      |
+|       | 4      |
+|       | 5      |
+| 1     | 1      |
 
-```c#
-using
+### Problem 9.	Sum of n Numbers
+*	Write a program that enters a number `n` and after that enters more `n` numbers and calculates and prints their `sum`.
+_Note: You may need to use a for-loop._
 
-System;
+_Examples:_
 
-class hoRRiblEcoDe
-{
-	static
-	 void
+| numbers | sum |
+|---------|-----|
+| 3       | 90  |
+| 20      |     |
+| 60      |     |
+| 10      |     |
+| 5       | 6.5 |
+| 2       |     |
+| -1      |     |
+| -0.5    |     |
+| 4       |     |
+| 2       |     |
+| 1       | 1   |
+| 1       |     |
 
-		Main()
-	{
-		Console.
+### Problem 10.	Fibonacci Numbers
+*	Write a program that reads a number `n` and prints on the console the first `n` members of the Fibonacci sequence (at a single line, separated by comma and space - `, `) : `0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, …`.
 
-	WriteLine("Hi, I am horribly formatted program"
-); Console.
-	  WriteLine("Numbers and squares:")
-; for (int i = 0;
-i < 10;
-i++)
-		{
-			Console.WriteLine(i +
-				" --> " + i
-				*
-				i);
-		}
-	}
-}
-```
+_Note: You may need to learn how to use loops._
 
-### Problem 11.	Programming Languages
-*	Perform a research (e.g. in Google or Wikipedia) and provide a short list with information about the most popular programming languages. How similar are they to C#? How do they differ from C#?
-*	Write in a text file called `“programming-languages.txt”` at least five languages along with 2-3 sentences about each of them. Use English.
+_Examples:_
 
-### Problem 12.	Development Environments
-*	Perform a research (e.g. in Google or Wikipedia) and provide a short list with popular development environments (IDEs) like Visual Studio.
-*	Write in a text file called `“list-of-IDEs.txt”` at least five IDEs along with 2-3 sentences about each of them. Use English.
+|   n  |        comments        |
+|:----:|------------------------|
+| 1    | 0                      |
+| 3    | 0 1 1                  |
+| 10   | 0 1 1 2 3 5 8 13 21 34 |
 
-### Problem 13.	C# and .NET Differences
-*	Describe the difference between C# and .NET Framework in 2-3 sentences.
-*	Write your description in a text file called `“csharp-and-dot-net-framework.txt”`. Use English.
+### Problem 11.* Numbers in Interval Dividable by Given Number
+*	Write a program that reads two positive integer numbers and prints how many numbers `p` exist between them such that the reminder of the division by `5` is `0`.
 
-### Problem 14.*	Current Date and Time
-*	Create a console application that prints the current date and time. Find out how in Internet.
+_Examples:_
 
-### Problem 15.*	Age after 10 Years
-*	Write a program to read your birthday from the console and print how old you are now and how old you will be after 10 years.
+| start | end |  p |                                         comments                                         |
+|:-----:|:---:|:--:|------------------------------------------------------------------------------------------|
+| 17    | 25  | 2  | 20, 25                                                                                   |
+| 5     | 30  | 6  | 5, 10, 15, 20, 25, 30                                                                    |
+| 3     | 33  | 6  | 5, 10, 15, 20, 25, 30                                                                    |
+| 3     | 4   | 0  | -                                                                                        |
+| 99    | 120 | 5  | 100, 105, 110, 115, 120                                                                  |
+| 107   | 196 | 18 | 110, 115, 120, 125, 130, 135, 140, 145, 150, 155, 160, 165, 170, 175, 180, 185, 190, 195 |
 
-### Problem 16.*	Print Long Sequence
-*	Write a program that prints the first 1000 members of the sequence: `2, -3, 4, -5, 6, -7, …`
-*	You might need to learn how to use loops in C# (search in Internet).
+### Problem 12.** Falling Rocks
+*	Implement the "Falling Rocks" game in the text console.
+	*	A small dwarf stays at the bottom of the screen and can move left and right (by the arrows keys).	
+	*	A number of rocks of different sizes and forms constantly fall down and you need to avoid a crash.	
+	*	Rocks are the symbols `^, @, *, &, +, %, $, #, !, ., ;, -` distributed with appropriate density. The dwarf is `(O)`.
+*	Ensure a constant game speed by `Thread.Sleep(150)`.
+*	Implement collision detection and scoring system.
 
-### Problem 17.*	Play with the Debugger in Visual Studio
-*	Write a program that prints at the console the numbers from `1 to 1000`, each at a separate line.
-*	You might need to learn how to use loops (search in Internet).
-*	Set a breakpoint in the line, which prints the next number in the Visual Studio code editor. Run the program through the debugger using the `[F5]` key. When the debugger stops at the breakpoint trace the code execution with `[F10]` key.
+![console-falling-rocks](https://cloud.githubusercontent.com/assets/3106986/5611219/7126b0b6-94cc-11e4-8610-28ffa78d0cf7.png)
 
-You do not have to submit anything in your homework for this problem. Just play with the debugger to learn how it works.
 
+### More C# console games:
+[github.com/NikolayIT/CSharpConsoleGames](https://github.com/NikolayIT/CSharpConsoleGames)
