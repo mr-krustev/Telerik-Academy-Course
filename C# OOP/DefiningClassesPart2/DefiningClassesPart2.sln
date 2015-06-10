@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01.CoordinateSystem", "CoordinateSystem\01.CoordinateSystem.csproj", "{19E1D3C2-B71E-4F46-9677-84B02E2A75D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02.GenericList", "GenericList\02.GenericList.csproj", "{E316BED2-1D7B-4807-99AB-7EA053F1EE09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03.Matrix", "Matrix\03.Matrix.csproj", "{B2F8994B-ACE7-409A-94A7-A5723A3B8410}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19E1D3C2-B71E-4F46-9677-84B02E2A75D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19E1D3C2-B71E-4F46-9677-84B02E2A75D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19E1D3C2-B71E-4F46-9677-84B02E2A75D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19E1D3C2-B71E-4F46-9677-84B02E2A75D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E316BED2-1D7B-4807-99AB-7EA053F1EE09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E316BED2-1D7B-4807-99AB-7EA053F1EE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E316BED2-1D7B-4807-99AB-7EA053F1EE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E316BED2-1D7B-4807-99AB-7EA053F1EE09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2F8994B-ACE7-409A-94A7-A5723A3B8410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2F8994B-ACE7-409A-94A7-A5723A3B8410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2F8994B-ACE7-409A-94A7-A5723A3B8410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2F8994B-ACE7-409A-94A7-A5723A3B8410}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

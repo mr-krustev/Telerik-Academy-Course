@@ -1,0 +1,3 @@
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\OddLines\bin\Debug\OddLines.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\OddLines\obj\Debug\OddLines.exe
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\OddLines\obj\Debug\OddLines.pdb

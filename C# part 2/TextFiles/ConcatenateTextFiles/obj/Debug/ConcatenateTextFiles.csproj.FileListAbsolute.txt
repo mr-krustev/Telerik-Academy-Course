@@ -1,0 +1,5 @@
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\ConcatenateTextFiles\bin\Debug\ConcatenateTextFiles.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\ConcatenateTextFiles\bin\Debug\ConcatenateTextFiles.exe
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\ConcatenateTextFiles\bin\Debug\ConcatenateTextFiles.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\ConcatenateTextFiles\obj\Debug\ConcatenateTextFiles.exe
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\ConcatenateTextFiles\obj\Debug\ConcatenateTextFiles.pdb

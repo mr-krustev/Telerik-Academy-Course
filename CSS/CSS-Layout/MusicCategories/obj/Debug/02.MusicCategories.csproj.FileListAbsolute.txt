@@ -1,0 +1,6 @@
+C:\Users\Martin\Desktop\Telerik\CSS\CSS-Layout\MusicCategories\bin\MusicCategories.dll.config
+C:\Users\Martin\Desktop\Telerik\CSS\CSS-Layout\MusicCategories\bin\MusicCategories.dll
+C:\Users\Martin\Desktop\Telerik\CSS\CSS-Layout\MusicCategories\bin\MusicCategories.pdb
+C:\Users\Martin\Desktop\Telerik\CSS\CSS-Layout\MusicCategories\obj\Debug\02.MusicCategories.csprojResolveAssemblyReference.cache
+C:\Users\Martin\Desktop\Telerik\CSS\CSS-Layout\MusicCategories\obj\Debug\MusicCategories.dll
+C:\Users\Martin\Desktop\Telerik\CSS\CSS-Layout\MusicCategories\obj\Debug\MusicCategories.pdb

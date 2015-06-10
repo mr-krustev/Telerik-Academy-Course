@@ -1,0 +1,1 @@
+C:\Users\Marto\Desktop\Университет\Telerik\ConsoleInputOutput\NumbersInIntervalDividedByGivenNumber\bin\Debug\NumbersInIntervalDividedByGivenNumber.exe.config

@@ -1,0 +1,6 @@
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\BinarySearch\bin\Debug\BinarySearch.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\BinarySearch\obj\Debug\BinarySearch.exe
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\BinarySearch\obj\Debug\BinarySearch.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\BinarySearch\bin\Debug\BinarySearch.exe
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\BinarySearch\bin\Debug\BinarySearch.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\BinarySearch\obj\Debug\11.BinarySearch.csprojResolveAssemblyReference.cache

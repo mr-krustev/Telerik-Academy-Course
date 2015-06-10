@@ -1,0 +1,6 @@
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\FindSequence\bin\Debug\FindSequence.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\FindSequence\bin\Debug\FindSequence.exe
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\FindSequence\bin\Debug\FindSequence.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\FindSequence\obj\Debug\FindSequence.csprojResolveAssemblyReference.cache
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\FindSequence\obj\Debug\FindSequence.exe
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\FindSequence\obj\Debug\FindSequence.pdb

@@ -1,0 +1,6 @@
+C:\Users\Marto\Desktop\Университет\Telerik\HTMLTables\HTMLTables\bin\HTMLTables.dll.config
+C:\Users\Marto\Desktop\Университет\Telerik\HTMLTables\HTMLTables\bin\HTMLTables.dll
+C:\Users\Marto\Desktop\Университет\Telerik\HTMLTables\HTMLTables\bin\HTMLTables.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\HTMLTables\HTMLTables\obj\Debug\HTMLTables.csprojResolveAssemblyReference.cache
+C:\Users\Marto\Desktop\Университет\Telerik\HTMLTables\HTMLTables\obj\Debug\HTMLTables.dll
+C:\Users\Marto\Desktop\Университет\Telerik\HTMLTables\HTMLTables\obj\Debug\HTMLTables.pdb

@@ -1,0 +1,6 @@
+C:\Users\Marto\Desktop\Университет\Telerik\OperatorsAndExpressions\ModifyBitAtP\bin\Debug\ModifyBitAtP.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\OperatorsAndExpressions\ModifyBitAtP\bin\Debug\ModifyBitAtP.exe
+C:\Users\Marto\Desktop\Университет\Telerik\OperatorsAndExpressions\ModifyBitAtP\bin\Debug\ModifyBitAtP.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\OperatorsAndExpressions\ModifyBitAtP\obj\Debug\14.ModifyBitAtP.csprojResolveAssemblyReference.cache
+C:\Users\Marto\Desktop\Университет\Telerik\OperatorsAndExpressions\ModifyBitAtP\obj\Debug\ModifyBitAtP.exe
+C:\Users\Marto\Desktop\Университет\Telerik\OperatorsAndExpressions\ModifyBitAtP\obj\Debug\ModifyBitAtP.pdb

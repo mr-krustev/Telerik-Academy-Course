@@ -1,0 +1,5 @@
+C:\Users\Marto\Desktop\Университет\Telerik\IntroToProgramming\FirstAndLastName\bin\Debug\FirstAndLastName.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\IntroToProgramming\FirstAndLastName\bin\Debug\FirstAndLastName.exe
+C:\Users\Marto\Desktop\Университет\Telerik\IntroToProgramming\FirstAndLastName\bin\Debug\FirstAndLastName.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\IntroToProgramming\FirstAndLastName\obj\Debug\FirstAndLastName.exe
+C:\Users\Marto\Desktop\Университет\Telerik\IntroToProgramming\FirstAndLastName\obj\Debug\FirstAndLastName.pdb

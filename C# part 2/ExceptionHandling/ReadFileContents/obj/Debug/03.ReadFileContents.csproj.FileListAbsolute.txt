@@ -1,0 +1,6 @@
+C:\Users\Marto\Desktop\Университет\Telerik\ExceptionHandling\ReadFileContents\bin\Debug\ReadFileContents.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\ExceptionHandling\ReadFileContents\obj\Debug\ReadFileContents.exe
+C:\Users\Marto\Desktop\Университет\Telerik\ExceptionHandling\ReadFileContents\obj\Debug\ReadFileContents.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\ExceptionHandling\ReadFileContents\bin\Debug\ReadFileContents.exe
+C:\Users\Marto\Desktop\Университет\Telerik\ExceptionHandling\ReadFileContents\bin\Debug\ReadFileContents.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\ExceptionHandling\ReadFileContents\obj\Debug\03.ReadFileContents.csprojResolveAssemblyReference.cache

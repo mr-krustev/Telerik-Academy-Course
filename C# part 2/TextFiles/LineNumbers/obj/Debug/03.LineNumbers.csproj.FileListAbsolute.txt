@@ -1,0 +1,5 @@
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\LineNumbers\bin\Debug\LineNumbers.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\LineNumbers\bin\Debug\LineNumbers.exe
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\LineNumbers\bin\Debug\LineNumbers.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\LineNumbers\obj\Debug\LineNumbers.exe
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\LineNumbers\obj\Debug\LineNumbers.pdb

@@ -1,0 +1,12 @@
+Problem 1. Strings in C#.
+
+Describe the strings in C#.
+What is typical for the string data type?
+Describe the most important methods of the String class.
+-----------------------------------------------------------
+
+String is an immutable variable with a default value of null. It accepts all types of input(integers,doubles,DateTime) as characters.
+Those inputs then can be Parsed/TryParsed to their "belonging" type. It is best used as a array of characters and is a variable
+providing options for tasks with words. Some of the most important methods of String are "string.join(), string.Contains(), 
+string.Equals(), string.Substring(), string.(Last)IndexOf()." and ofcourse a lot more. They provide you the opportunity to search
+through the text and get information. A good way to use the information and to change the given input is StringBuilder.

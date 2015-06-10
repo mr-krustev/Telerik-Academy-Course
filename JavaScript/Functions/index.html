@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="wrapper">
+    <fieldset>
+        <legend>Problem 1</legend>
+        <div class="problemText">
+            Write a function that returns the last digit of given integer as an English word.
+        </div>
+        <table>
+            <thead>
+            <th>input</th>
+            <th>output</th>
+            </thead>
+            <tbody>
+            <tr>
+                <td>512</td>
+                <td>two</td>
+            </tr>
+            <tr>
+                <td>1024</td>
+                <td>four</td>
+            </tr>
+            <tr>
+                <td>12309</td>
+                <td>nine</td>
+            </tr>
+            </tbody>
+        </table>
+        <form oninput="solveFirst()">
+            <label for="problem1Integer">Number: </label><input type="text" id="problem1Integer"/>
+        </form>
+        <div class="output" id="problemOneOutput"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 2</legend>
+        <div class="problemText">
+            Write a function that reverses the digits of given decimal number.
+        </div>
+        <table>
+            <thead>
+            <th>input</th>
+            <th>output</th>
+            </thead>
+            <tbody>
+            <tr>
+                <td>256</td>
+                <td>652</td>
+            </tr>
+            <tr>
+                <td>123.45</td>
+                <td>54.321</td>
+            </tr>
+            </tbody>
+        </table>
+        <form oninput="solveSecond()">
+            <label for="decimalNumber">Decimal number: </label><input type="text" id="decimalNumber"/>
+        </form>
+        <div class="output" id="problemTwoOutput"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 3</legend>
+        <div class="problemText">
+            Write a function that finds all the occurrences of word in a text.<br>
+            The search can be case sensitive or case insensitive.<br>
+            Use function overloading.<br>
+        </div>
+        <form oninput="solveThird()">
+            <label for="textToCheck">Text: </label>
+            <textarea id="textToCheck"></textarea>
+            <label for="searchedWord">Searched word: </label><input type="text" id="searchedWord"/>
+            <label for="caseSensitive">Case Sensitive: </label><input type="checkbox" id="caseSensitive"
+                                                                      onchange="solveThird()"
+                                                                      checked=checked/>
+        </form>
+        <div class="output" id="problemThreeOutput"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 4</legend>
+        <div class="problemText">
+            Write a function to count the number of div elements on the web page.
+        </div>
+        <div class="action">
+            <button onclick="solveFourth()">Solve</button>
+            <button onclick="hideFourth()">Hide</button>
+        </div>
+        <div class="output" id="problemFourOutput"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 5</legend>
+        <div class="problemText">
+            Write a function that counts how many times given number appears in given array.<br>
+            Write a test function to check if the function is working correctly.
+        </div>
+        <form oninput="solveFifth()">
+            <label for="pr5ArrayOfNumbers">Array: </label><input type="text" id="pr5ArrayOfNumbers"/>
+            <label for="pr5SearchedNumber">Searched number: </label><input type="text" id="pr5SearchedNumber"/>
+        </form>
+        <div class="action">
+            <span>Prefabricated test:</span>
+            <button onclick="solveFifthMyFunction()">Solve</button>
+            <button onclick="hideFifthMyFunction()">Hide</button>
+        </div>
+        <div class="output" id="problemFiveOutput"></div>
+        <div class="output" id="problemFiveOutputMyFunct"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 6</legend>
+        <div class="problemText">
+            Write a function that checks if the element at given position in given array of integers is bigger than its two neighbours (when such exist).
+        </div>
+        <form oninput="solveSixth()">
+            <label for="pr6ArrayOfNumbers">Array: </label><input type="text" id="pr6ArrayOfNumbers"/>
+            <label for="pr6Index">Index: </label><input type="text" id="pr6Index"/>
+        </form>
+        <div class="output" id="problemSixOutput"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 7</legend>
+        <div class="problemText">
+            Write a function that returns the index of the first element in array that is larger than its neighbours or -1, if there’s no such element.<br>
+            Use the function from the previous exercise.
+        </div>
+        <form oninput="solveSeventh()">
+            <label for="pr7ArrayOfNumbers">Array of Integers: </label><input type="text" id="pr7ArrayOfNumbers"/>
+        </form>
+        <div class="output" id="problemSevenOutput"></div>
+    </fieldset>
+    <footer>
+        <div>Such a pleasant color.</div>
+        <button onclick="superSecretStuff()">Look inside!</button>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

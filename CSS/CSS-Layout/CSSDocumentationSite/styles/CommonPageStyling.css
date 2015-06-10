@@ -1,0 +1,149 @@
+﻿body {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(193, 190, 190);
+    color: black;
+}
+
+    body > nav, aside {
+        margin: 2px;
+        width: 12%;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+    }
+
+.left {
+    float: left;
+}
+
+.rightAside {
+    float: right;
+}
+
+nav img {
+    width: 25px;
+    height: 40px;
+    vertical-align: -10px;
+}
+
+nav a, nav div a {
+    color: black;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    font-size: 0.9em;
+}
+
+div a, article p a {
+    text-decoration: underline;
+    color: darkred;
+}
+
+
+main {
+    overflow: auto;
+    margin: 1px;
+    float: left;
+    width: 75%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 2px;
+    overflow: auto;
+    background-color: white;
+    border: 1px solid black;
+}
+
+    section header h2 {
+        padding: 5px;
+        margin: 5px;
+    }
+
+    section header h3, article header h3 {
+        margin: 2px;
+        padding: 2px;
+        font-size: 1em;
+        color: white;
+        background-color: gray;
+    }
+
+    section hr {
+        width: 95%;
+        color: gray;
+    }
+
+article p {
+    overflow: auto;
+    padding: 15px 10px 10px 20px;
+    margin: 5px 15px;
+}
+
+article img {
+    float: left;
+    margin: 5px 15px 5px 5px;
+}
+
+strong {
+    font-weight: bold;
+}
+
+.listHeader a {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: darkred;
+}
+
+.previous {
+    margin: 2px 10px 2px 10px;
+    padding: 5px;
+    height: 40px;
+    width: 150px;
+    background-color: gray;
+    color: white;
+}
+
+.next {
+    margin: 15px;
+    padding: 5px;
+    height: 40px;
+    width: 150px;
+    background-color: gray;
+    color: white;
+}
+
+.centeredText {
+    text-align: center;
+}
+
+div.centeredText {
+    padding: 2px;
+    margin: 2px;
+}
+
+    div.centeredText > input[type="text"] {
+        max-width: 120px;
+        margin: 5px;
+    }
+
+.stylesLink {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 7px;
+    width: 130px;
+    height: 40px;
+    font-weight: 900;
+    color: #026689;
+    background-image: url(../images/button.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

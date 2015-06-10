@@ -1,0 +1,5 @@
+C:\Users\Marto\Desktop\Университет\Telerik\HTML\HTMLFundamentals\SocialSite\bin\SocialSite.dll.config
+C:\Users\Marto\Desktop\Университет\Telerik\HTML\HTMLFundamentals\SocialSite\bin\SocialSite.dll
+C:\Users\Marto\Desktop\Университет\Telerik\HTML\HTMLFundamentals\SocialSite\bin\SocialSite.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\HTML\HTMLFundamentals\SocialSite\obj\Debug\SocialSite.dll
+C:\Users\Marto\Desktop\Университет\Telerik\HTML\HTMLFundamentals\SocialSite\obj\Debug\SocialSite.pdb

@@ -1,0 +1,46 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+#wrapper {
+    text-align: center;
+}
+
+#wrapper fieldset {
+    margin: 10px;
+    padding: 5px;
+    text-align: left;
+}
+
+#wrapper fieldset table {
+    background-color: white;
+    color: black;
+    float: right;
+    padding: 0px;
+}
+
+#wrapper fieldset table td, #wrapper fieldset table th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#wrapper fieldset .problemText {
+    margin:10px;
+    padding: 5px;
+}
+
+
+#wrapper fieldset form {
+    margin: 5px 15px;
+    display: block;
+}
+
+#wrapper fieldset .output {
+    margin: 10px;
+    background-color: #535353;
+    padding: 0px 5px;
+    color: rgb(0, 180, 0);
+    font-weight: bold;
+    max-width: 25%;
+}

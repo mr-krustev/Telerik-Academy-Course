@@ -1,0 +1,6 @@
+C:\Users\Martin\Documents\Visual Studio 2013\Projects\CSS-Overview\InternationalEmployees\bin\InternationalEmployees.dll.config
+C:\Users\Martin\Documents\Visual Studio 2013\Projects\CSS-Overview\InternationalEmployees\bin\InternationalEmployees.dll
+C:\Users\Martin\Documents\Visual Studio 2013\Projects\CSS-Overview\InternationalEmployees\bin\InternationalEmployees.pdb
+C:\Users\Martin\Documents\Visual Studio 2013\Projects\CSS-Overview\InternationalEmployees\obj\Debug\InternationalEmployees.dll
+C:\Users\Martin\Documents\Visual Studio 2013\Projects\CSS-Overview\InternationalEmployees\obj\Debug\InternationalEmployees.pdb
+C:\Users\Martin\Documents\Visual Studio 2013\Projects\CSS-Overview\InternationalEmployees\obj\Debug\02.InternationalEmployees.csprojResolveAssemblyReference.cache

@@ -1,0 +1,3 @@
+C:\Users\Marto\Desktop\Университет\Telerik\Common-Type-System\StudentClass\bin\Debug\StudentClass.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\Common-Type-System\StudentClass\obj\Debug\StudentClass.exe
+C:\Users\Marto\Desktop\Университет\Telerik\Common-Type-System\StudentClass\obj\Debug\StudentClass.pdb

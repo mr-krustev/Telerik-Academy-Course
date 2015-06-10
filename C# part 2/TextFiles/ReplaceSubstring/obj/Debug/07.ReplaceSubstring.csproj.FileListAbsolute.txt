@@ -1,0 +1,6 @@
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\ReplaceSubstring\bin\Debug\ReplaceSubstring.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\ReplaceSubstring\bin\Debug\ReplaceSubstring.exe
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\ReplaceSubstring\bin\Debug\ReplaceSubstring.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\ReplaceSubstring\obj\Debug\07.ReplaceSubstring.csprojResolveAssemblyReference.cache
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\ReplaceSubstring\obj\Debug\ReplaceSubstring.exe
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\ReplaceSubstring\obj\Debug\ReplaceSubstring.pdb

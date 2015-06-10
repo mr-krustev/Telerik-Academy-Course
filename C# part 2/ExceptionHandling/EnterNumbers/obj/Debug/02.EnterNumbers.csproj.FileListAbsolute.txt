@@ -1,0 +1,5 @@
+C:\Users\Marto\Desktop\Университет\Telerik\ExceptionHandling\EnterNumbers\bin\Debug\EnterNumbers.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\ExceptionHandling\EnterNumbers\bin\Debug\EnterNumbers.exe
+C:\Users\Marto\Desktop\Университет\Telerik\ExceptionHandling\EnterNumbers\bin\Debug\EnterNumbers.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\ExceptionHandling\EnterNumbers\obj\Debug\EnterNumbers.exe
+C:\Users\Marto\Desktop\Университет\Telerik\ExceptionHandling\EnterNumbers\obj\Debug\EnterNumbers.pdb

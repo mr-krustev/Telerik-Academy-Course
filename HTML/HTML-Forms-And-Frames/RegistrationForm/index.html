@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <style>
+        th {
+            width: 200px;
+        }
+
+        .nameStyling {
+            width: 240px;
+        }
+
+        .adressStyling {
+            width: 230px;
+            height: 70px;
+        }
+
+        .stateStyling {
+            width: 40px;
+        }
+
+        .phoneFirstNumbersStyling {
+            width: 50px;
+        }
+
+        .phoneNumberStyling {
+            width: 100px;
+        }
+
+        .zipCodeStyling {
+            width: 75px;
+        }
+
+        .countryStyling {
+            width: 170px;
+        }
+
+        .emailStyling{
+            width:240px;
+        }
+
+        .commentSectionStyling{
+            width: 230px;
+            height: 100px;
+        }
+
+        .buttonRowStyle {
+            background-color: lightblue;
+            text-align: center;
+        }
+
+        .buttonStyle {
+            margin-left: 4px;
+            margin-right: 4px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <table border="1" cellpadding="1" cellspacing="0">
+            <tfoot>
+                <tr>
+                    <td class="buttonRowStyle" colspan="2"><input type="submit" class="buttonStyle" /><input type="reset" class="buttonStyle" value="Clean This Form" /></td>
+                </tr>
+            </tfoot>
+            <tr>
+                <th>Last Name</th>
+                <td><input type="text" class="nameStyling" /></td>
+            </tr>
+            <tr>
+                <th>First Name</th>
+                <td><input type="text" class="nameStyling" /></td>
+            </tr>
+            <tr>
+                <th>Adress</th>
+                <td><textarea class="adressStyling"></textarea></td>
+            </tr>
+            <tr>
+                <th>City</th>
+                <td><input type="text" /> State <input type="text" class="stateStyling" /></td>
+            </tr>
+            <tr>
+                <th>Zip/Postal Code</th>
+                <td><input type="text" class="zipCodeStyling" /></td>
+            </tr>
+            <tr>
+                <th>Country</th>
+                <td>
+                    <select name="country" class="countryStyling">
+                        <option selected>Bulgaria</option>
+                        <option>Romania</option>
+                        <option>Saudi Arabia</option>
+                        <option>China</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Phone(country code,<br />area code,number)</th>
+                <td>
+                    (+<input type="text" class="phoneFirstNumbersStyling" />)
+                    <input type="text" class="phoneFirstNumbersStyling" />
+                    <input type="text" class="phoneNumberStyling" />
+                </td>
+            </tr>
+            <tr>
+                <th>E-mail</th>
+                <td><input type="text" class="emailStyling" /></td>
+            </tr>
+            <tr>
+                <th>Birth date</th>
+                <td><input type="text" placeholder="дд.мм.гггг г." /></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td>
+                    <select>
+                        <option selected>Male</option>
+                        <option>Female</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <th>Starting date</th>
+                <td>
+                    <input type="radio" name="startDateRadio" id="springRadio2015"/> <label for="springRadio2015">Spring 2015</label>
+                    <input type="radio" name="startDateRadio" id="summerRadio2015" /> <label for="summerRadio2015">Summer 2015</label>
+                </td>
+            </tr>
+            <tr>
+                <th>Comments/Questions</th>
+                <td><textarea class="commentSectionStyling"></textarea></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>

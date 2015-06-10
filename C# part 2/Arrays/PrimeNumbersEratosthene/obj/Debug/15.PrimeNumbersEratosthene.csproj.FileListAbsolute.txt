@@ -1,0 +1,3 @@
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\PrimeNumbersEratosthene\bin\Debug\PrimeNumbersEratosthene.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\PrimeNumbersEratosthene\obj\Debug\PrimeNumbersEratosthene.exe
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\PrimeNumbersEratosthene\obj\Debug\PrimeNumbersEratosthene.pdb

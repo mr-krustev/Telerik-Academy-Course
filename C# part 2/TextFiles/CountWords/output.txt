@@ -1,0 +1,5 @@
+﻿sir: 3
+way: 2
+good: 1
+welcome: 0
+bad: 0

@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="wrapper">
+    <fieldset>
+        <legend>Problem 1</legend>
+        <div class="problemText">
+            Write an if statement that takes two double variables a and b and exchanges their values if the first one is
+            greater than the second.<br>
+            As a result print the values a and b, separated by a space.
+        </div>
+        <table>
+            <thead>
+            <th>a</th>
+            <th>b</th>
+            <th>result</th>
+            </thead>
+            <tbody>
+            <tr>
+                <td>5</td>
+                <td>2</td>
+                <td>2 5</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>4</td>
+                <td>3 4</td>
+            </tr>
+            <tr>
+                <td>5.5</td>
+                <td>4.5</td>
+                <td>4.5 5.5</td>
+            </tr>
+            </tbody>
+        </table>
+        <form oninput="exchangeIfGreater()">
+            <label for="a">a: </label><input type="text" id="a"/>
+            <label for="b">b: </label><input type="text" id="b"/>
+        </form>
+        <div class="output" id="problemOneOutput"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 2</legend>
+        <div class="problemText">
+            Write a script that shows the sign (+, - or 0) of the product of three real numbers, without calculating it.
+            <br>
+            Use a sequence of if operators.
+        </div>
+        <table>
+            <thead>
+            <th>a</th>
+            <th>b</th>
+            <th>c</th>
+            <th>result</th>
+            </thead>
+            <tbody>
+            <tr>
+                <td>5</td>
+                <td>2</td>
+                <td>2</td>
+                <td>+</td>
+            </tr>
+            <tr>
+                <td>-2</td>
+                <td>-2</td>
+                <td>1</td>
+                <td>+</td>
+            </tr>
+            <tr>
+                <td>-2</td>
+                <td>4</td>
+                <td>3</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>-2.5</td>
+                <td>4</td>
+                <td>0</td>
+            </tr>
+            <tr>
+                <td>-1</td>
+                <td>-0.5</td>
+                <td>-5.1</td>
+                <td>-</td>
+            </tr>
+            </tbody>
+        </table>
+        <form oninput="checkForSign()">
+            <label for="pr2ANumber">a: </label><input type="text" id="pr2ANumber"/>
+            <label for="pr2BNumber">b: </label><input type="text" id="pr2BNumber"/>
+            <label for="pr2CNumber">c: </label><input type="text" id="pr2CNumber"/>
+        </form>
+        <div class="output" id="problemTwoOutput"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 3</legend>
+        <div class="problemText">
+            Write a script that finds the biggest of three numbers.<br>
+            Use nested if statements.
+        </div>
+        <table>
+            <thead>
+            <th>a</th>
+            <th>b</th>
+            <th>c</th>
+            <th>result</th>
+            </thead>
+            <tbody>
+            <tr>
+                <td>5</td>
+                <td>2</td>
+                <td>2</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>-2</td>
+                <td>-2</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>-</td>
+                <td>4</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>-2.5</td>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>-0.1</td>
+                <td>-0.5</td>
+                <td>-1.1</td>
+                <td>-0.1</td>
+            </tr>
+            </tbody>
+        </table>
+        <form oninput="theBiggestOfThree()">
+            <label for="aNumber">a: </label><input type="text" id="aNumber"/>
+            <label for="bNumber">b: </label><input type="text" id="bNumber"/>
+            <label for="cNumber">c: </label><input type="text" id="cNumber"/>
+        </form>
+        <div class="output" id="problemThreeOutput"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 4</legend>
+        <div class="problemText">
+            Sort 3 real values in descending order.<br>
+            Use nested if statements.
+        </div>
+        <table>
+            <thead>
+            <th>a</th>
+            <th>b</th>
+            <th>c</th>
+            <th>result</th>
+            </thead>
+            <tbody>
+            <tr>
+                <td>5</td>
+                <td>1</td>
+                <td>2</td>
+                <td>5 2 1</td>
+            </tr>
+            <tr>
+                <td>-2</td>
+                <td>-2</td>
+                <td>1</td>
+                <td>1 -2 -2</td>
+            </tr>
+            <tr>
+                <td>-2</td>
+                <td>4</td>
+                <td>3</td>
+                <td>4 3 -2</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>-2.5</td>
+                <td>5</td>
+                <td>5 0 -2.5</td>
+            </tr>
+            <tr>
+                <td>-1.1</td>
+                <td>-0.5</td>
+                <td>-0.1</td>
+                <td>-0.1 -0.5 -1.1</td>
+            </tr>
+            </tbody>
+        </table>
+        <form oninput="sortThreeNumbers()">
+            <label for="numberA">a: </label><input type="text" id="numberA"/>
+            <label for="numberB">b: </label><input type="text" id="numberB"/>
+            <label for="numberC">c: </label><input type="text" id="numberC"/>
+        </form>
+        <div class="output" id="problemFourOutput"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 5</legend>
+        <div class="problemText">
+            Write a script that asks for a digit (0-9), and depending on the input, shows the digit as a word (in English). <br>
+            Print “not a digit” in case of invalid input. <br>
+            Use a switch statement.
+        </div>
+        <table>
+            <thead>
+            <th>digit</th>
+            <th>result</th>
+            </thead>
+            <tbody>
+            <tr>
+                <td>2</td>
+                <td>two</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>one</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>zero</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>five</td>
+            </tr>
+            <tr>
+                <td>-0.1</td>
+                <td>not a digit</td>
+            </tr>
+            <tr>
+                <td>hi</td>
+                <td>not a digit</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>nine</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>not a digit</td>
+            </tr>
+            </tbody>
+        </table>
+        <form oninput="digitAsWord()">
+            <label for="digit">a: </label><input type="text" id="digit"/>
+        </form>
+        <div class="output" id="problemFiveOutput"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 6</legend>
+        <div class="problemText">
+            Write a script that reads the coefficients a, b and c of a quadratic equation ax2 + bx + c = 0 and solves it (prints its real roots). <br>
+            Calculates and prints its real roots.<br>
+            <br>
+            Note: Quadratic equations may have 0, 1 or 2 real roots.
+        </div>
+        <table>
+            <thead>
+            <th>a</th>
+            <th>b</th>
+            <th>c</th>
+            <th>roots</th>
+            </thead>
+            <tbody>
+            <tr>
+                <td>2</td>
+                <td>5</td>
+                <td>-3</td>
+                <td>x1=-3; x2=0.5</td>
+            </tr>
+            <tr>
+                <td>-1</td>
+                <td>3</td>
+                <td>0</td>
+                <td>x1=3; x2=0</td>
+            </tr>
+            <tr>
+                <td>-0.5</td>
+                <td>4</td>
+                <td>-8</td>
+                <td>x1=x2=4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>2</td>
+                <td>8</td>
+                <td>no real roots</td>
+            </tr>
+            </tbody>
+        </table>
+        <form oninput="solveQuadraticEquation()">
+            <label for="coefficientA">a: </label><input type="text" id="coefficientA"/>
+            <label for="coefficientB">b: </label><input type="text" id="coefficientB"/>
+            <label for="coefficientC">c: </label><input type="text" id="coefficientC"/>
+        </form>
+        <div class="output" id="problemSixOutput"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 7</legend>
+        <div class="problemText">
+            Write a script that finds the greatest of given 5 variables.<br>
+            Use nested if statements.
+        </div>
+        <table>
+            <thead>
+            <th>a</th>
+            <th>b</th>
+            <th>c</th>
+            <th>d</th>
+            <th>e</th>
+            <th>biggest</th>
+            </thead>
+            <tbody>
+            <tr>
+                <td>5</td>
+                <td>2</td>
+                <td>2</td>
+                <td>4</td>
+                <td>1</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>-2</td>
+                <td>-22</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>-2</td>
+                <td>4</td>
+                <td>3</td>
+                <td>2</td>
+                <td>0</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>0</td>
+                <td>-2.5</td>
+                <td>0</td>
+                <td>5</td>
+                <td>5</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>-3</td>
+                <td>-0.5</td>
+                <td>-1.1</td>
+                <td>-2</td>
+                <td>-0.1</td>
+                <td>-0.1</td>
+            </tr>
+            </tbody>
+        </table>
+        <form oninput="findBiggestOfFive()">
+            <label for="pr7FirstNumber">a: </label><input type="text" id="pr7FirstNumber"/>
+            <label for="pr7SecondNumber">b: </label><input type="text" id="pr7SecondNumber"/>
+            <label for="pr7ThirdNumber">c: </label><input type="text" id="pr7ThirdNumber"/>
+            <label for="pr7FourthNumber">c: </label><input type="text" id="pr7FourthNumber"/>
+            <label for="pr7FifthNumber">c: </label><input type="text" id="pr7FifthNumber"/>
+        </form>
+        <div class="output" id="problemSevenOutput"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 8</legend>
+        <div class="problemText">
+            Write a script that converts a number in the range [0…999] to words, corresponding to its English pronunciation.
+        </div>
+        <table>
+            <thead>
+            <th>numbers</th>
+            <th>number as words</th>
+            </thead>
+            <tbody>
+            <tr>
+                <td>0</td>
+                <td>Zero</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Nine</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Ten</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Twelve</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Nineteen</td>
+            </tr>
+            <tr>
+                <td>25</td>
+                <td>Twenty five</td>
+            </tr>
+            <tr>
+                <td>98</td>
+                <td>Ninety eight</td>
+            </tr>
+            <tr>
+                <td>98</td>
+                <td>Ninety eight</td>
+            </tr>
+            <tr>
+                <td>273</td>
+                <td>Two hundred and seventy three</td>
+            </tr>
+            <tr>
+                <td>400</td>
+                <td>Four hundred</td>
+            </tr>
+            <tr>
+                <td>501</td>
+                <td>Five hundred and one</td>
+            </tr>
+            <tr>
+                <td>617</td>
+                <td>Six hundred and seventeen</td>
+            </tr>
+            <tr>
+                <td>711</td>
+                <td>Seven hundred and eleven</td>
+            </tr>
+            <tr>
+                <td>999</td>
+                <td>Nine hundred and ninety nine</td>
+            </tr>
+            </tbody>
+        </table>
+        <form oninput="numberAsWords()">
+            <label for="pr8Number">a: </label><input type="text" id="pr8Number"/>
+        </form>
+        <div class="output" id="problemEightOutput"></div>
+    </fieldset>
+    <footer>
+        <div>Note: this button is definitely not using reverse psychology!</div>
+        <button onclick="superSecretStuff()">DO NOT CLICK ME!</button>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

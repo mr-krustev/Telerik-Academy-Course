@@ -1,0 +1,5 @@
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\CompareArrays\bin\Debug\CompareArrays.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\CompareArrays\bin\Debug\CompareArrays.exe
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\CompareArrays\bin\Debug\CompareArrays.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\CompareArrays\obj\Debug\CompareArrays.exe
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\CompareArrays\obj\Debug\CompareArrays.pdb

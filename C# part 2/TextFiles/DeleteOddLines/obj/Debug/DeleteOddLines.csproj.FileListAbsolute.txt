@@ -1,0 +1,5 @@
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\DeleteOddLines\bin\Debug\DeleteOddLines.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\DeleteOddLines\bin\Debug\DeleteOddLines.exe
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\DeleteOddLines\bin\Debug\DeleteOddLines.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\DeleteOddLines\obj\Debug\DeleteOddLines.exe
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\DeleteOddLines\obj\Debug\DeleteOddLines.pdb

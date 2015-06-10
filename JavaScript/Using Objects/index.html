@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="wrapper">
+    <fieldset>
+        <legend>Problem 1</legend>
+        <div class="problemText">
+            <ul>
+                <li>Write functions for working with shapes in standard Planar coordinate system.
+                    <ul>
+                        <li>Points are represented by coordinates P(X, Y)</li>
+                        <li>Lines are represented by two points, marking their beginning and ending L(P1(X1,Y1),
+                            P2(X2,Y2))
+                        </li>
+                    </ul>
+                </li>
+                <li>Calculate the distance between two points.</li>
+                <li>Check if three segment lines can form a triangle.</li>
+            </ul>
+        </div>
+        <form oninput="printToN()">
+            <label for="dropDownOptions">Choose action: </label>
+            <select onchange="changeInputs(this.value)" id="dropDownOptions">
+                <option value="calculate" selected="selected">Calculate distance</option>
+                <option value="checkTriangle">Check for triangle</option>
+            </select>
+            <!--There is a little workaround here, but couldn't find a proper way to do this.-->
+            <div id="options" oninput="solveFirst()">
+                <em>Ex.: A = 0,0; B = 3,4</em> <br>
+                <label for="pointA">Point A: </label><input type="text" id="pointA"/>
+                <label for="pointB">Point B: </label><input type="text" id="pointB"/>
+            </div>
+        </form>
+        <div class="output" id="problemOneOutput"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 2</legend>
+        <div class="problemText">
+            <ul>
+                <li>Write a function that removes all elements with a given value.</li>
+                <li>Attach it to the array type.</li>
+                <li>Read about prototype and how to attach methods.</li>
+            </ul>
+        </div>
+        <form oninput="solveSecond()">
+            <label for="pr2Array">Array: </label><input type="text" id="pr2Array"/>
+            <label for="pr2Number">Number to be removed: </label><input type="text" id="pr2Number"/>
+        </form>
+        <div class="output" id="problemTwoOutput"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 3</legend>
+        <div class="problemText">
+            <ul>
+                <li>Write a function that makes a deep copy of an object.</li>
+                <li>The function should work for both primitive and reference types.</li>
+            </ul>
+            <em>Note: To check this task use the console, or read the code.</em>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 4</legend>
+        <div class="problemText">
+            Write a function that checks if a given object contains a given property.<br>
+            <em>Note: To check this task use the console, or read the code. Tip: solveFourth() is your friend.</em>
+            <strong>Time is ticking, these won't be automated, just what's needed.</strong>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 5</legend>
+        <div class="problemText">
+            <ul>
+                <li>Write a function that finds the youngest person in a given array of people and prints his/hers full name.</li>
+                <li>Each person has properties firstname, lastname and age.</li>
+            </ul>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 6</legend>
+        <div class="problemText">
+            <ul>
+                <li>Write a function that groups an array of people by age, first or last name.</li>
+                <li>The function must return an associative array, with keys - the groups, and values - arrays with people in this groups.</li>
+                <li>Use function overloading (i.e. just one function)</li>
+            </ul>
+        </div>
+    </fieldset>
+    <footer>
+        <div>Such a pleasant color.</div>
+        <button onclick="superSecretStuff()">Look inside!</button>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

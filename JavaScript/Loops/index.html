@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="wrapper">
+    <fieldset>
+        <legend>Problem 1</legend>
+        <div class="problemText">
+            Write a script that prints all the numbers from 1 to N.
+        </div>
+        <form oninput="printToN()">
+            <label for="n">N: </label><input type="text" id="n"/>
+        </form>
+        <div class="output" id="problemOneOutput"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 2</legend>
+        <div class="problemText">
+            Write a script that prints all the numbers from 1 to N, that are not divisible by 3 and 7 at the same time
+        </div>
+        <form oninput="printNotDivisibleBy3And7()">
+            <label for="pr2N">N: </label><input type="text" id="pr2N"/>
+        </form>
+        <div class="output" id="problemTwoOutput"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 3</legend>
+        <div class="problemText">
+            Write a script that finds the max and min number from a sequence of numbers.<br>
+        </div>
+
+        <form oninput="biggestAndSmallest()">
+            <label for="sequence">Sequence: </label><input type="text" id="sequence"/>
+        </form>
+        <div class="output" id="problemThreeOutput"></div>
+    </fieldset>
+    <fieldset>
+        <legend>Problem 4</legend>
+        <div class="problemText">
+            Write a script that finds the lexicographically smallest and largest property in document, window and
+            navigator objects.
+        </div>
+        <div class="action">
+            <button onclick="displayMinAndMaxProperties()">Solve</button>
+        </div>
+        <div class="output" id="problemFourOutput"></div>
+    </fieldset>
+    <footer>
+        <div>Such a pleasant color.</div>
+        <button onclick="superSecretStuff()">Look inside!</button>
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

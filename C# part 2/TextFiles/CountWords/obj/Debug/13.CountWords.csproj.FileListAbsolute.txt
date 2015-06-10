@@ -1,0 +1,5 @@
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\CountWords\bin\Debug\CountWords.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\CountWords\bin\Debug\CountWords.exe
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\CountWords\bin\Debug\CountWords.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\CountWords\obj\Debug\CountWords.exe
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\CountWords\obj\Debug\CountWords.pdb

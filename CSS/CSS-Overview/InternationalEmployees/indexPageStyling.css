@@ -1,0 +1,48 @@
+﻿body {
+}
+
+table, th, td {
+	border-collapse: collapse;
+}
+
+table {
+	border: 1px solid #d5d4c2;
+}
+
+td {
+	border-left: 1px solid #d5d4c2;
+	padding-right: 50px;
+}
+
+td, th {
+	padding: 5px;
+}
+
+th{
+    font-style:normal;
+    text-align:left;
+    color:white;
+    background-color: rgb(60, 175, 40);
+	border-left: 1px solid #407f29;
+	border-bottom: 1px solid #407f29;
+}
+th:first-of-type, td:first-of-type {
+	border-left: none;
+}
+
+tbody tr:nth-child(2n+1) {
+	background-color: white;
+}
+
+tbody tr:nth-child(2n) {
+	background-color: #ececd8;
+}
+
+tr:nth-of-type(2n){
+    background-color:darkgray;
+}
+
+.smallFlagPic{
+    width:20px;
+    height:15px;
+}

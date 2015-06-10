@@ -1,0 +1,54 @@
+﻿/*
+Problem 1. Odd lines
+
+Write a program that reads a text file and prints on the console its odd lines.
+*/
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.IO;
+
+class PrintOdd
+{  
+    static StringBuilder GetOdd(List<string> text)
+    {      
+        StringBuilder onlyOdd = new StringBuilder();
+        for (int i = 0; i < text.Count; i++)
+        {
+            if (i % 2 == 1)
+            {
+                onlyOdd.Append(text[i]);
+                if (i + 1 != text.Count)
+                {
+                    onlyOdd.Append("\n");
+                }
+                else
+                {
+                    onlyOdd.Append("\n" + new string('-', 40));
+                }
+            }
+        }
+        return onlyOdd;
+    }
+
+    static void Main()
+    {
+        StreamReader readText = new StreamReader(@"..\..\text.txt");
+        List<string> text = new List<string>();
+        using (readText)
+        {
+            string line = readText.ReadLine();
+            while (line != null)
+            {
+                text.Add(line);
+                line = readText.ReadLine();
+            }
+        }
+
+        Console.WriteLine(GetOdd(text));
+    }
+}
+

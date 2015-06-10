@@ -1,0 +1,5 @@
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\IndexOfLetters\bin\Debug\IndexOfLetters.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\IndexOfLetters\bin\Debug\IndexOfLetters.exe
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\IndexOfLetters\bin\Debug\IndexOfLetters.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\IndexOfLetters\obj\Debug\IndexOfLetters.exe
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\IndexOfLetters\obj\Debug\IndexOfLetters.pdb

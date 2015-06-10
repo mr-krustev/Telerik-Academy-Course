@@ -1,0 +1,6 @@
+C:\Users\Marto\Desktop\Университет\Telerik\IntroToProgramming\SquareRoot\bin\Debug\SquareRoot.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\IntroToProgramming\SquareRoot\obj\Debug\08. SquareRoot.csprojResolveAssemblyReference.cache
+C:\Users\Marto\Desktop\Университет\Telerik\IntroToProgramming\SquareRoot\bin\Debug\SquareRoot.exe
+C:\Users\Marto\Desktop\Университет\Telerik\IntroToProgramming\SquareRoot\bin\Debug\SquareRoot.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\IntroToProgramming\SquareRoot\obj\Debug\SquareRoot.exe
+C:\Users\Marto\Desktop\Университет\Telerik\IntroToProgramming\SquareRoot\obj\Debug\SquareRoot.pdb

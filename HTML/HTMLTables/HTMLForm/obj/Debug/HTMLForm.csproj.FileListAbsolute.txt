@@ -1,0 +1,5 @@
+C:\Users\Marto\Desktop\Университет\Telerik\HTMLTables\HTMLForm\bin\HTMLForm.dll.config
+C:\Users\Marto\Desktop\Университет\Telerik\HTMLTables\HTMLForm\bin\HTMLForm.dll
+C:\Users\Marto\Desktop\Университет\Telerik\HTMLTables\HTMLForm\bin\HTMLForm.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\HTMLTables\HTMLForm\obj\Debug\HTMLForm.dll
+C:\Users\Marto\Desktop\Университет\Telerik\HTMLTables\HTMLForm\obj\Debug\HTMLForm.pdb

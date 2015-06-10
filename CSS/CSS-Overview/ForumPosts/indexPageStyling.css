@@ -1,0 +1,60 @@
+﻿body {
+    background-color:gray;
+    font-size:18px;
+    color:white;
+}
+
+header{
+    text-align:center
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    font-size:1.2em;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+}
+
+.current{
+    background-color: rgba(255,255,255,0.8)
+}
+
+p{
+    color:black;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+article header{
+    color:rgba(255,255,255,0.8);
+    text-align:left;
+    font-size:1.4em;
+    font-weight:600;
+}
+
+article footer{
+    text-align:left;
+    color:black;
+    font-size:0.8rem;
+}
+
+footer{
+    text-align:center;
+    color:black;
+    font-size:1.1em;
+}
+
+footer a {
+    text-align:left;
+    text-decoration:none;
+    color:black;
+}
+

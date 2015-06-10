@@ -1,0 +1,27 @@
+body {
+    background-color:black;
+    color:white;
+}
+
+#wrapper {
+    text-align: center;
+}
+
+#wrapper fieldset {
+    margin: 10px;
+    padding: 5px;
+    text-align: left;
+}
+
+#wrapper fieldset .action {
+    margin:5px 0px;
+    display: block;
+}
+
+#wrapper fieldset .output{
+    margin:10px;
+    background-color: #535353;
+    padding: 0px 5px;
+    color: rgb(0,180,0);
+    font-weight: bold;
+}

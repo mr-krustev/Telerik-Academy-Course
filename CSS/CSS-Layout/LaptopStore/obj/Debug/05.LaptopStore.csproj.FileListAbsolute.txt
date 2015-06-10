@@ -1,0 +1,6 @@
+C:\Users\Martin\Desktop\Telerik\CSS\CSS-Layout\LaptopStore\bin\LaptopStore.dll.config
+C:\Users\Martin\Desktop\Telerik\CSS\CSS-Layout\LaptopStore\bin\LaptopStore.dll
+C:\Users\Martin\Desktop\Telerik\CSS\CSS-Layout\LaptopStore\bin\LaptopStore.pdb
+C:\Users\Martin\Desktop\Telerik\CSS\CSS-Layout\LaptopStore\obj\Debug\05.LaptopStore.csprojResolveAssemblyReference.cache
+C:\Users\Martin\Desktop\Telerik\CSS\CSS-Layout\LaptopStore\obj\Debug\LaptopStore.dll
+C:\Users\Martin\Desktop\Telerik\CSS\CSS-Layout\LaptopStore\obj\Debug\LaptopStore.pdb

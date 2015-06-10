@@ -1,0 +1,6 @@
+C:\Users\Marto\Desktop\Университет\Telerik\C# OOP\OOP-Principles-Part-1\SchoolClasses\bin\Debug\SchoolClasses.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\C# OOP\OOP-Principles-Part-1\SchoolClasses\obj\Debug\01.SchoolClasses.csprojResolveAssemblyReference.cache
+C:\Users\Marto\Desktop\Университет\Telerik\C# OOP\OOP-Principles-Part-1\SchoolClasses\bin\Debug\SchoolClasses.exe
+C:\Users\Marto\Desktop\Университет\Telerik\C# OOP\OOP-Principles-Part-1\SchoolClasses\bin\Debug\SchoolClasses.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\C# OOP\OOP-Principles-Part-1\SchoolClasses\obj\Debug\SchoolClasses.exe
+C:\Users\Marto\Desktop\Университет\Telerik\C# OOP\OOP-Principles-Part-1\SchoolClasses\obj\Debug\SchoolClasses.pdb

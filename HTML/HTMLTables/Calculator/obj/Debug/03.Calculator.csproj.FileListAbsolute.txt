@@ -1,0 +1,5 @@
+C:\Users\Marto\Desktop\Университет\Telerik\HTMLTables\Calculator\bin\Calculator.dll.config
+C:\Users\Marto\Desktop\Университет\Telerik\HTMLTables\Calculator\bin\Calculator.dll
+C:\Users\Marto\Desktop\Университет\Telerik\HTMLTables\Calculator\bin\Calculator.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\HTMLTables\Calculator\obj\Debug\Calculator.dll
+C:\Users\Marto\Desktop\Университет\Telerik\HTMLTables\Calculator\obj\Debug\Calculator.pdb

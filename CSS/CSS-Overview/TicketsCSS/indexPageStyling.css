@@ -1,0 +1,52 @@
+﻿body {
+    color: white;
+    background-color: black;
+}
+
+th {
+    text-align:left;
+    font-style:normal;
+}
+
+article{
+    display:inline-block
+}
+
+table {
+    padding: 10px;
+    border-collapse: collapse;
+    background-color: gray;
+    width: 355px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#statusDotColor {
+    color: lightgreen;
+}
+
+.italicized {
+    font-style: italic;
+    color:white;
+}
+
+.grayText {
+    color: lightgray;
+}
+
+.yellowText	{
+	color: #fff9b5;
+
+}
+
+.redText {
+	color: red;
+	font-weight: bold;
+}
+
+.orangeText {
+	color: #dd6d23;
+	font-weight: bold;
+}

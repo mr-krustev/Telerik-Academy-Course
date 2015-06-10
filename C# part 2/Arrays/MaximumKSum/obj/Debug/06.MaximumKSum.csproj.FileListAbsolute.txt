@@ -1,0 +1,6 @@
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\MaximumKSum\bin\Debug\MaximumKSum.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\MaximumKSum\bin\Debug\MaximumKSum.exe
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\MaximumKSum\bin\Debug\MaximumKSum.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\MaximumKSum\obj\Debug\06.MaximumKSum.csprojResolveAssemblyReference.cache
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\MaximumKSum\obj\Debug\MaximumKSum.exe
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\MaximumKSum\obj\Debug\MaximumKSum.pdb

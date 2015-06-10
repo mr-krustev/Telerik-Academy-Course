@@ -1,0 +1,5 @@
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\ExtractTextFromXML\bin\Debug\ExtractTextFromXML.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\ExtractTextFromXML\bin\Debug\ExtractTextFromXML.exe
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\ExtractTextFromXML\bin\Debug\ExtractTextFromXML.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\ExtractTextFromXML\obj\Debug\ExtractTextFromXML.exe
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\ExtractTextFromXML\obj\Debug\ExtractTextFromXML.pdb

@@ -1,0 +1,6 @@
+C:\Users\Martin\Desktop\Telerik\CSS\LESS\WebGallery\bin\WebGallery.dll.config
+C:\Users\Martin\Desktop\Telerik\CSS\LESS\WebGallery\bin\WebGallery.dll
+C:\Users\Martin\Desktop\Telerik\CSS\LESS\WebGallery\bin\WebGallery.pdb
+C:\Users\Martin\Desktop\Telerik\CSS\LESS\WebGallery\obj\Debug\02.WebGallery.csprojResolveAssemblyReference.cache
+C:\Users\Martin\Desktop\Telerik\CSS\LESS\WebGallery\obj\Debug\WebGallery.dll
+C:\Users\Martin\Desktop\Telerik\CSS\LESS\WebGallery\obj\Debug\WebGallery.pdb

@@ -1,0 +1,5 @@
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\PrefixTest\bin\Debug\PrefixTest.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\PrefixTest\obj\Debug\PrefixTest.exe
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\PrefixTest\obj\Debug\PrefixTest.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\PrefixTest\bin\Debug\PrefixTest.exe
+C:\Users\Marto\Desktop\Университет\Telerik\TextFiles\PrefixTest\bin\Debug\PrefixTest.pdb

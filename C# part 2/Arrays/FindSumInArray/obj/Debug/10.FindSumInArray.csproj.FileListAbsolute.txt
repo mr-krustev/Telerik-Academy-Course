@@ -1,0 +1,6 @@
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\FindSumInArray\bin\Debug\FindSumInArray.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\FindSumInArray\bin\Debug\FindSumInArray.exe
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\FindSumInArray\bin\Debug\FindSumInArray.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\FindSumInArray\obj\Debug\10.FindSumInArray.csprojResolveAssemblyReference.cache
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\FindSumInArray\obj\Debug\FindSumInArray.exe
+C:\Users\Marto\Desktop\Университет\Telerik\Arrays\FindSumInArray\obj\Debug\FindSumInArray.pdb

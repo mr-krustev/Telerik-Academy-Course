@@ -1,0 +1,54 @@
+﻿body {
+    background-color: rgb(53, 53, 53);
+}
+
+section {
+    
+    background-color: rgb(128, 128, 128);
+    width: 70%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+section h1 {
+    padding:7px;
+    margin:7px;
+    font-weight:bold;
+    color: rgb(65, 7, 7);
+}
+
+article {
+    overflow:auto;
+    margin:5px;
+    padding:5px;
+    background-color: white;
+    border: 1px solid black;
+    width: 60%;
+    height:200px;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+article img {
+    padding:5px;
+    margin:5px;
+    float: left;
+    width: 150px;
+    height: 150px;
+}
+
+article input {
+    margin: 7px;
+    float: right;
+    width:70px;
+    height:24px;
+    padding: 5px;
+    background-image:url(../images/Button.png);
+}
+
+/*Copied from veselints*/
+article input:hover{
+    background-image:url(../images/buttonHover.png);
+}

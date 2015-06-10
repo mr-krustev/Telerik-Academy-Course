@@ -1,0 +1,5 @@
+C:\Users\Marto\Desktop\Университет\Telerik\HTML-Forms-And-Frames\RegistrationForm\bin\RegistrationForm.dll.config
+C:\Users\Marto\Desktop\Университет\Telerik\HTML-Forms-And-Frames\RegistrationForm\bin\RegistrationForm.dll
+C:\Users\Marto\Desktop\Университет\Telerik\HTML-Forms-And-Frames\RegistrationForm\bin\RegistrationForm.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\HTML-Forms-And-Frames\RegistrationForm\obj\Debug\RegistrationForm.dll
+C:\Users\Marto\Desktop\Университет\Telerik\HTML-Forms-And-Frames\RegistrationForm\obj\Debug\RegistrationForm.pdb

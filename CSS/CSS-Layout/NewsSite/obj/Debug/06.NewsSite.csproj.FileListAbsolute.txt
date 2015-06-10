@@ -1,0 +1,5 @@
+C:\Users\Martin\Desktop\Telerik\CSS\CSS-Layout\NewsSite\bin\NewsSite.dll.config
+C:\Users\Martin\Desktop\Telerik\CSS\CSS-Layout\NewsSite\bin\NewsSite.dll
+C:\Users\Martin\Desktop\Telerik\CSS\CSS-Layout\NewsSite\bin\NewsSite.pdb
+C:\Users\Martin\Desktop\Telerik\CSS\CSS-Layout\NewsSite\obj\Debug\NewsSite.dll
+C:\Users\Martin\Desktop\Telerik\CSS\CSS-Layout\NewsSite\obj\Debug\NewsSite.pdb

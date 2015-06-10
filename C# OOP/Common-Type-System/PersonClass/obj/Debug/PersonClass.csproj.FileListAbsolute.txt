@@ -1,0 +1,5 @@
+C:\Users\Marto\Desktop\Университет\Telerik\Common-Type-System\PersonClass\bin\Debug\PersonClass.exe.config
+C:\Users\Marto\Desktop\Университет\Telerik\Common-Type-System\PersonClass\bin\Debug\PersonClass.exe
+C:\Users\Marto\Desktop\Университет\Telerik\Common-Type-System\PersonClass\bin\Debug\PersonClass.pdb
+C:\Users\Marto\Desktop\Университет\Telerik\Common-Type-System\PersonClass\obj\Debug\PersonClass.exe
+C:\Users\Marto\Desktop\Университет\Telerik\Common-Type-System\PersonClass\obj\Debug\PersonClass.pdb
