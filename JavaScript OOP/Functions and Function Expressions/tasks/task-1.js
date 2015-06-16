@@ -9,22 +9,25 @@
  */
 
 function sum(numbers) {
-	var i, result, len, temp;
-	if (numbers.length === 'undefined') {
-		throw new Error();
-	}
+    var i, len, temp,
+        result = 0;
 
-	if (numbers.length == 0) {
-		return null;
-	}
+    if (numbers.length === 'undefined') {
+        throw new Error();
+    }
 
-	for (i = 0, len = numbers.length; i < len; i += 1) {
-		temp = +numbers[i];
-		if (isNaN(temp)) {
-			throw new Error();
-		}
-	}
+    if (numbers.length == 0) {
+        return null;
+    }
 
+    for (i = 0, len = numbers.length; i < len; i += 1) {
+        temp = +numbers[i];
+        if (isNaN(temp)) {
+            throw new Error();
+        }
+        result += temp;
+    }
+    return result;
 }
 
 module.exports = sum;
