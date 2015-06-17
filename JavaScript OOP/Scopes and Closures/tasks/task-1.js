@@ -41,7 +41,7 @@ function solve() {
             return false;
         }
 
-        function checkUniqueTitle(title) {
+        function checkTitleAndCategory(title) {
             var i, len;
             if (!(title.length > 2 && title.length < 101)) {
                 return true;
@@ -63,14 +63,16 @@ function solve() {
             if (checkUniqueISBN(tempISBN)) {
                 throw new Error('Expected unique ISBN!');
             }
-            if (checkUniqueTitle(book.title)) {
+            if (checkTitleAndCategory(book.title)) {
                 throw new Error('Expected unique title!');
             }
             books.push(book);
             if (!(categories.indexOf(book.category) > -1)) {
-                var category = book.category;
-                category.ID = categories.length + 1;
-                categories.push(category);
+                if (!checkTitleAndCategory(book.category)) {
+                    var category = book.category;
+                    category.ID = categories.length + 1;
+                    categories.push(category);
+                }
             }
             return book;
         }
@@ -81,7 +83,7 @@ function solve() {
                 return books;
             }
             if (bookProperty !== undefined) {
-                // check if sorting by category
+                // check if sorting by certain category
                 if (bookProperty.category !== undefined) {
                     return books.filter(function (book) {
                         if (book.category === bookProperty.category) {
@@ -91,7 +93,7 @@ function solve() {
                         return book.category >= nextBook.category;
                     });
                 }
-                // check if sorting by author
+                // check if sorting by certain author
                 if (bookProperty.author !== undefined) {
                     return books.filter(function (book) {
                         if (book.author === bookProperty.author) {
@@ -100,10 +102,6 @@ function solve() {
                     }).sort(function (book, nextBook) {
                         return book.author >= nextBook.author;
                     });
-                }
-                // check if sorting by all
-                if (bookProperty.category !== undefined) {
-                    return books;
                 }
             }
             return books;
