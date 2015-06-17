@@ -9,6 +9,7 @@
  *	List all books
  *	Books are sorted by ID
  *	This can be done by author, by category or all
+ *  They are provided by an options object {category: ...} or {author: ...}
  *	List all categories
  *	Categories are sorted by ID
 
@@ -89,8 +90,6 @@ function solve() {
                         if (book.category === bookProperty.category) {
                             return book;
                         }
-                    }).sort(function (book, nextBook) {
-                        return book.category >= nextBook.category;
                     });
                 }
                 // check if sorting by certain author
@@ -99,8 +98,6 @@ function solve() {
                         if (book.author === bookProperty.author) {
                             return book;
                         }
-                    }).sort(function (book, nextBook) {
-                        return book.author >= nextBook.author;
                     });
                 }
             }
