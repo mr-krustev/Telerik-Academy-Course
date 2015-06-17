@@ -6,36 +6,38 @@
  3) it must throw an Error if any of the range params is missing
  */
 
-function findPrimes(from, to) {
-    if (arguments.length < 2) {
-        throw 'Error! Pass 2 arguments!';
-    } else if (isNaN(arguments[0]) || isNaN(arguments[1])) {
-        throw 'Error! Arguments must be convertible to numbers.';
-    }
-    var i, isPrime,
-        divisor,
-        maxDivisor,
-        result = [];
-    from *= 1;
-    to *= 1;
+function solve () {
 
-    for (i = from; i <= to; i += 1) {
-        isPrime = true;
-        if (i < 2) {
-            continue;
+    return function (from, to) {
+        var i,divisor,maxDivisor,isPrime,
+            primes = [];
+
+        from *=1;
+        to *=1;
+
+        if(isNaN(from) || isNaN(to)){
+            throw new Error();
         }
-        maxDivisor = Math.sqrt(i);
-        for (divisor = 2; divisor <= maxDivisor; divisor += 1) {
-            if (!(i % divisor)) {
-                isPrime = false;
-                break;
+
+        for(i = from; i <= to; i+=1){
+            maxDivisor = Math.sqrt(i);
+            isPrime = true;
+            if(i <= 1 ){
+                continue;
+            }
+            for(divisor = 2; divisor <= maxDivisor; divisor+=1){
+                if(!(i % divisor)){
+                    isPrime = false;
+                }
+            }
+            if(isPrime){
+                primes.push(i);
             }
         }
-        if (isPrime) {
-            result.push(i);
-        }
+
+        return primes;
     }
-    return result;
+
 }
 
 module.exports = findPrimes;

@@ -8,26 +8,31 @@
 
  */
 
-function sum(numbers) {
-    var i, len, temp,
-        result = 0;
+function solve () {
 
-    if (numbers.length === 'undefined') {
-        throw new Error();
-    }
+    return function (arr) {
+        var i, sum, len;
 
-    if (numbers.length == 0) {
-        return null;
-    }
 
-    for (i = 0, len = numbers.length; i < len; i += 1) {
-        temp = +numbers[i];
-        if (isNaN(temp)) {
+        if(arr === 'undefined'){
             throw new Error();
         }
-        result += temp;
+
+        if(arr.length === 0){
+            return null;
+        }
+
+        sum = 0;
+
+        for(i = 0, len = arr.length; i < len; i+=1){
+            if(isNaN(arr[i])){
+                throw new Error();
+            }
+            sum += +arr[i];
+        }
+        return sum;
     }
-    return result;
+
 }
 
 module.exports = sum;
