@@ -13,7 +13,7 @@
     document.onmousemove = mouseMove;
 
     if (b == "Netscape") {
-        document.captureEvents(Event.MOUSEMOVE)
+        document.captureEvents(Event.MOUSEMOVE);
     }
 
     function mouseMove(evn) {
@@ -30,7 +30,7 @@
                 PopTip();
             }
         } else {
-            if (document.getElementsByClassName['ToolTip'].style.visibility == 'visible') {
+            if (document.getElementsByClassName('ToolTip').style.visibility == 'visible') {
                 PopTip();
             }
         }
@@ -38,7 +38,7 @@
 
     function PopTip() {
         if (b == "Netscape") {
-            theLayer = eval('document.layers[\'ToolTip\']');
+            theLayer = eval('document.getElementsByClassName(\'ToolTip\')');
 
             if ((pX + 120) > window.innerWidth) {
                 pX = window.innerWidth - 150;
@@ -48,7 +48,7 @@
             theLayer.top = pY + 15;
             theLayer.visibility = 'show';
         } else {
-            theLayer = eval('document.all[\'ToolTip\']');
+            theLayer = eval('document.getElementsByClassName(\'ToolTip\')');
 
             if (theLayer) {
                 pX = event.x - 5;
@@ -83,10 +83,10 @@
     function ShowMenu1() {
 
         if (b == "Netscape") {
-            theLayer = eval('document.layers[\'menu1\']');
+            theLayer = eval('.getElementById(\'menu1\')');
             theLayer.visibility = 'show';
         } else {
-            theLayer = eval('document.all[\'menu1\']');
+            theLayer = eval('document.getElementById(\'menu1\')');
             theLayer.style.visibility = 'visible';
         }
     }
@@ -103,10 +103,10 @@
     function ShowMenu2() {
 
         if (b == "Netscape") {
-            theLayer = eval('document.layers[\'menu2\']');
+            theLayer = eval('.getElementById(\'menu2\')');
             theLayer.visibility = 'show';
         } else {
-            theLayer = eval('document.all[\'menu2\']');
+            theLayer = eval('document.getElementById(\'menu2\')');
             theLayer.style.visibility = 'visible';
         }
     }
