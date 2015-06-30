@@ -71,14 +71,12 @@ function solve() {
                 }),
                 result = '<' + domElement.type;
 
-            // TODO: Add attributes!
             for (i = 0, len = elementAttributes.length; i < len; i += 1) {
                 result += ' ' + elementAttributes[i].name + '="' + elementAttributes[i].value + '"';
             }
             result += '>';
 
             if (domElement.children.length > 0) {
-                // TODO:Add children!
                 for (i = 0, len = domElement.children.length; i < len; i += 1) {
                     if (typeof domElement.children[i] === 'string') {
                         result += domElement.children[i];
@@ -96,7 +94,7 @@ function solve() {
 
 
         var domElement = {
-            // Properties
+
             get type() {
                 return this._type;
             },
@@ -114,7 +112,6 @@ function solve() {
                 return this._content;
             },
             set content(value) {
-                // TODO: Check if value is correct!
                 return this._content = value;
             },
             get attributes() {
@@ -127,18 +124,15 @@ function solve() {
                 return this._children;
             },
             set children(value) {
-                // TODO: Check if value is correct!
                 return this._children = value;
             },
             get parent() {
                 return this._parent;
             },
             set parent(value) {
-                // TODO: Check if value is correct!
                 return this._parent = value;
             },
 
-            // Constructor
             init: function (type) {
                 this.type = type;
                 this.content;
@@ -149,7 +143,6 @@ function solve() {
                 return this;
             },
 
-            // Methods
             appendChild: function (child) {
                 this.children.push(child);
                 child.parent = this;
