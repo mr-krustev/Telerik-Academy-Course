@@ -77,9 +77,17 @@ function solve() {
             }
             result += '>';
 
-            // TODO:Add children!
-            for (i = 0, len = domElement.children.length; i < len; i += 1) {
-                result += parseHTML(domElement.children[i]);
+            if (domElement.children.length > 0) {
+                // TODO:Add children!
+                for (i = 0, len = domElement.children.length; i < len; i += 1) {
+                    if (typeof domElement.children[i] === 'string') {
+                        result += domElement.children[i];
+                        continue;
+                    }
+                    result += domElement.children[i].innerHTML;
+                }
+            } else if(domElement.content) {
+                result += domElement.content;
             }
 
             result += '</' + domElement.type + '>';
@@ -145,6 +153,7 @@ function solve() {
             appendChild: function (child) {
                 this.children.push(child);
                 child.parent = this;
+                return this;
             },
             addAttribute: function (name, value) {
                 var i, len;
@@ -154,7 +163,7 @@ function solve() {
                 }
 
                 for (i = 0, len = this._attributes.length; i < len; i += 1) {
-                    if(this._attributes[i].name == name){
+                    if (this._attributes[i].name == name) {
                         this._attributes[i].value = value;
                         return this;
                     }
