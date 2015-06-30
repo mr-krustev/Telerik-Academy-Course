@@ -66,17 +66,20 @@ function solve() {
 
         function parseHTML(domElement) {
             var i, len,
-                result = '<' + domElement.type + ' ';
+                elementAttributes = domElement.attributes.sort(function (a, b) {
+                    return a.name.localeCompare(b.name);
+                }),
+                result = '<' + domElement.type;
 
             // TODO: Add attributes!
-            for (i = 0, len = domElement.attributes.length; i < len; i += 1) {
-
+            for (i = 0, len = elementAttributes.length; i < len; i += 1) {
+                result += ' ' + elementAttributes[i].name + '="' + elementAttributes[i].value + '"';
             }
-            result += ' >';
+            result += '>';
 
             // TODO:Add children!
             for (i = 0, len = domElement.children.length; i < len; i += 1) {
-
+                result += parseHTML(domElement.children[i]);
             }
 
             result += '</' + domElement.type + '>';
@@ -140,12 +143,21 @@ function solve() {
 
             // Methods
             appendChild: function (child) {
-                // TODO: Implement!
+                this.children.push(child);
+                child.parent = this;
             },
             addAttribute: function (name, value) {
+                var i, len;
 
                 if (!checkIfValidAttribute(name)) {
                     throw new Error('Invalid attribute!')
+                }
+
+                for (i = 0, len = this._attributes.length; i < len; i += 1) {
+                    if(this._attributes[i].name == name){
+                        this._attributes[i].value = value;
+                        return this;
+                    }
                 }
 
                 this.attributes.push({name: name, value: value});
