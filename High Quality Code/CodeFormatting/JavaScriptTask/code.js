@@ -13,7 +13,7 @@
     document.onmousemove = mouseMove;
 
     if (b == "Netscape") {
-        document.captureEvents(Event.MOUSEMOVE);
+        document.captureEvents(Event.MOUSEMOVE);    //Deprecated, consider changing!
     }
 
     function mouseMove(evn) {
