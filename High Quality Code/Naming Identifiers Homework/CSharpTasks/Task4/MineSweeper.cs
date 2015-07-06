@@ -1,11 +1,11 @@
-﻿namespace MineSweeper
+﻿namespace CSharpTasks
 {
     using System;
     using System.Collections.Generic;
     using System.Linq;
     using System.Text;
 
-    public class MineSweeperGame
+    public class MineSweeper
     {
         public const int GameFieldRows = 5;
         public const int GameFieldCols = 10;

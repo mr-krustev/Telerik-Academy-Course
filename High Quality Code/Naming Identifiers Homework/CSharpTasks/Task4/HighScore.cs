@@ -1,4 +1,4 @@
-﻿namespace MineSweeper
+﻿namespace CSharpTasks
 {
     public class HighScore
     {

@@ -46,6 +46,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Task2\Person.cs" />
     <Compile Include="Task1\Converter.cs" />
+    <Compile Include="Task4\MineSweeper.cs" />
+    <Compile Include="Task4\HighScore.cs">
+      <ExcludeFromStyleCop>False</ExcludeFromStyleCop>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
