@@ -55,12 +55,38 @@
 function solve() {
     var lastId = 0;
     // private methods
-    function getNextId(){
+    function getNextId() {
         return ++lastId;
     }
 
+    function checkStudentId(obj, studentID) {
+        var i, len;
+
+        for (i = 0, len = obj.students.length; i < len; i += 1) {
+            if (obj.students[i].id === studentID) {
+                return true;
+            }
+        }
+        return false;
+    }
+
+    function checkHomeworkID(obj, homeworkID) {
+        return obj.presentations.length >= homeworkID && homeworkID !== 0;
+    }
+
+    function checkIfUsed(ID, arrayOfIDs) {
+        var result;
+
+        arrayOfIDs.forEach(function (id) {
+            if (id === ID) {
+                result = true;
+            }
+        });
+
+        return !!result;
+    }
+
     var Course = {
-        // TODO: Add properties
         get title() {
             return this._title;
         },
@@ -91,7 +117,7 @@ function solve() {
                 throw new Error('Invalid presentations input.');
             }
 
-            if (value.length == 0) {
+            if (value.length === 0) {
                 throw new Error('Empty array of presentations!');
             }
 
@@ -118,25 +144,25 @@ function solve() {
 
         //Methods
         addStudent: function (name) {
-            var i,len,
+            var i, len,
                 regExp = new RegExp('[^A-Za-z]'),
                 student = {},
                 names = name.split(' ');
             //Validate!
-            if(typeof name !== 'string'){
+            if (typeof name !== 'string') {
                 throw new Error('Name must be string!');
             }
 
-            if(names.length != 2){
+            if (names.length !== 2) {
                 throw new Error('Must provide First and Last name');
             }
 
-            for(i = 0, len = names.length; i<len; i+=1){
-                if(names[i][0] !== names[i][0].toUpperCase()){
+            for (i = 0, len = names.length; i < len; i += 1) {
+                if (names[i][0] !== names[i][0].toUpperCase()) {
                     throw new Error('Invalid name! First letters must be capitalized!');
                 }
 
-                if(regExp.test(names[i])){
+                if (regExp.test(names[i])) {
                     throw new Error('Invalid name! Must contain only letters!');
                 }
             }
@@ -144,15 +170,62 @@ function solve() {
             student.firstname = names[0];
             student.lastname = names[1];
             student.id = getNextId();
-            this.students.push(student)
+            student.score = 0;
+            this.students.push(student);
+            return student.id;
         },
         getAllStudents: function () {
+            return this.students.slice();
         },
         submitHomework: function (studentID, homeworkID) {
+            if (!(checkStudentId(this, studentID) && checkHomeworkID(this, homeworkID))) {
+                throw new Error('Either student ID or homework ID is invalid');
+            }
         },
         pushExamResults: function (results) {
+            var i, len, currentId, usedStudIds = [];
+
+            if (!Array.isArray(results)) {
+                throw new Error('Invalid results!');
+            }
+
+
+            for (i = 0, len = results.length; i < len; i += 1) {
+                currentId = results[i].StudentID;
+                if (usedStudIds.length === 0 || !checkIfUsed(currentId, usedStudIds)) {
+                    usedStudIds.push(results[i].StudentID);
+                } else {
+                    throw new Error('Used ID!');
+                }
+
+                if (isNaN(results[i].score)) {
+                    throw new Error('Score must be provided!');
+                }
+
+                if (currentId > this.students.length || currentId < 1) {
+                    throw new Error('There is no student with such ID.');
+                }
+
+                if (isNaN(currentId)) {
+                    throw new Error('Invalid ID!');
+                }
+
+                this.students[currentId - 1].score = results[i].score;
+            }
+            this.students.sort(function (studentA, studentB) {
+                return studentB.score - studentA.score;
+            });
         },
         getTopStudents: function () {
+            if (!this.students.length) {
+                throw new Error('There are no students.');
+            }
+
+            if (this.students.length <= 10) {
+                return this.students.slice(0);
+            }
+
+           return this.students.slice(0,10);
         }
     };
     return Course;
