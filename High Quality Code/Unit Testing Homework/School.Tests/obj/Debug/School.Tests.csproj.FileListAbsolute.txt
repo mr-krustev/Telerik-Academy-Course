@@ -5,3 +5,12 @@ D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\School.Tests\
 D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\School.Tests\bin\Debug\School.pdb
 D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\School.Tests\obj\Debug\School.Tests.dll
 D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\School.Tests\obj\Debug\School.Tests.pdb
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\School.Tests\bin\Debug\School.Tests.dll
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\School.Tests\bin\Debug\School.Tests.pdb
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\School.Tests\bin\Debug\School.Tests.dll.CodeAnalysisLog.xml
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\School.Tests\bin\Debug\School.Tests.dll.lastcodeanalysissucceeded
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\School.Tests\bin\Debug\School.exe
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\School.Tests\bin\Debug\School.pdb
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\School.Tests\obj\Debug\School.Tests.csprojResolveAssemblyReference.cache
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\School.Tests\obj\Debug\School.Tests.dll
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\School.Tests\obj\Debug\School.Tests.pdb

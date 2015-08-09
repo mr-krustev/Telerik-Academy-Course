@@ -7,3 +7,14 @@ D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\Santase.Tests
 D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\Santase.Tests\obj\Debug\Santase.Tests.csprojResolveAssemblyReference.cache
 D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\Santase.Tests\obj\Debug\Santase.Tests.dll
 D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\Santase.Tests\obj\Debug\Santase.Tests.pdb
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\Santase.Tests\bin\Debug\Santase.Tests.dll
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\Santase.Tests\bin\Debug\Santase.Tests.pdb
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\Santase.Tests\bin\Debug\Santase.Tests.dll.CodeAnalysisLog.xml
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\Santase.Tests\bin\Debug\Santase.Tests.dll.lastcodeanalysissucceeded
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\Santase.Tests\bin\Debug\nunit.framework.dll
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\Santase.Tests\bin\Debug\Santase.Logic.dll
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\Santase.Tests\bin\Debug\Santase.Logic.pdb
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\Santase.Tests\bin\Debug\nunit.framework.xml
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\Santase.Tests\obj\Debug\Santase.Tests.csprojResolveAssemblyReference.cache
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\Santase.Tests\obj\Debug\Santase.Tests.dll
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Unit Testing Homework\Santase.Tests\obj\Debug\Santase.Tests.pdb

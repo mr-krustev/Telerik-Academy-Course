@@ -1,0 +1,9 @@
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Test Driven Development Homework\Poker.Tests\bin\Debug\Poker.Tests.dll
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Test Driven Development Homework\Poker.Tests\bin\Debug\Poker.Tests.pdb
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Test Driven Development Homework\Poker.Tests\bin\Debug\nunit.framework.dll
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Test Driven Development Homework\Poker.Tests\bin\Debug\Poker.exe
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Test Driven Development Homework\Poker.Tests\bin\Debug\Poker.pdb
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Test Driven Development Homework\Poker.Tests\bin\Debug\nunit.framework.xml
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Test Driven Development Homework\Poker.Tests\obj\Debug\Poker.Tests.csprojResolveAssemblyReference.cache
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Test Driven Development Homework\Poker.Tests\obj\Debug\Poker.Tests.dll
+D:\Telerik\mr-krustev-repo\Telerik-Academy-Course\High Quality Code\Test Driven Development Homework\Poker.Tests\obj\Debug\Poker.Tests.pdb
