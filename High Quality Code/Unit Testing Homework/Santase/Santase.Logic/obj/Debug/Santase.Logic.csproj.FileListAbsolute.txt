@@ -1,0 +1,7 @@
+D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\Santase\Santase.Logic\bin\Debug\Santase.Logic.dll
+D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\Santase\Santase.Logic\bin\Debug\Santase.Logic.pdb
+D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\Santase\Santase.Logic\bin\Debug\nunit.framework.dll
+D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\Santase\Santase.Logic\obj\Debug\Santase.Logic.csprojResolveAssemblyReference.cache
+D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\Santase\Santase.Logic\obj\Debug\Santase.Logic.dll
+D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\Santase\Santase.Logic\obj\Debug\Santase.Logic.pdb
+D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\Santase\Santase.Logic\bin\Debug\nunit.framework.xml

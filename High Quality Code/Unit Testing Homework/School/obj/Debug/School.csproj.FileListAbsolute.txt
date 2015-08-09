@@ -1,0 +1,6 @@
+D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\School\bin\Debug\School.exe.config
+D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\School\bin\Debug\School.exe
+D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\School\bin\Debug\School.pdb
+D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\School\obj\Debug\School.csprojResolveAssemblyReference.cache
+D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\School\obj\Debug\School.exe
+D:\Telerik\Telerik Academy\High Quality Code\Unit Testing Homework\School\obj\Debug\School.pdb
