@@ -1,0 +1,6 @@
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\Variables, Data, Expressions and Constants Homework\VariablesAndConstants\ClassSizeInCSharp\obj\Debug\CSharpTasks.csprojResolveAssemblyReference.cache
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\Variables, Data, Expressions and Constants Homework\VariablesAndConstants\ClassSizeInCSharp\bin\Debug\ClassSizeInCSharp.exe.config
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\Variables, Data, Expressions and Constants Homework\VariablesAndConstants\ClassSizeInCSharp\bin\Debug\ClassSizeInCSharp.exe
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\Variables, Data, Expressions and Constants Homework\VariablesAndConstants\ClassSizeInCSharp\bin\Debug\ClassSizeInCSharp.pdb
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\Variables, Data, Expressions and Constants Homework\VariablesAndConstants\ClassSizeInCSharp\obj\Debug\ClassSizeInCSharp.exe
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\Variables, Data, Expressions and Constants Homework\VariablesAndConstants\ClassSizeInCSharp\obj\Debug\ClassSizeInCSharp.pdb
