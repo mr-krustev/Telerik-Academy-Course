@@ -1,0 +1,6 @@
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\Defensive Programming and Exceptions\EntryPoint\bin\Debug\EntryPoint.exe.config
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\Defensive Programming and Exceptions\EntryPoint\obj\Debug\EntryPoint.csprojResolveAssemblyReference.cache
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\Defensive Programming and Exceptions\EntryPoint\bin\Debug\EntryPoint.exe
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\Defensive Programming and Exceptions\EntryPoint\bin\Debug\EntryPoint.pdb
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\Defensive Programming and Exceptions\EntryPoint\obj\Debug\EntryPoint.exe
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\Defensive Programming and Exceptions\EntryPoint\obj\Debug\EntryPoint.pdb

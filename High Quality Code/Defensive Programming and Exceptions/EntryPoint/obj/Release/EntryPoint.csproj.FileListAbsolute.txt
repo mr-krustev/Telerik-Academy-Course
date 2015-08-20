@@ -1,0 +1,5 @@
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\Defensive Programming and Exceptions\EntryPoint\bin\Release\EntryPoint.exe.config
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\Defensive Programming and Exceptions\EntryPoint\bin\Release\EntryPoint.exe
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\Defensive Programming and Exceptions\EntryPoint\bin\Release\EntryPoint.pdb
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\Defensive Programming and Exceptions\EntryPoint\obj\Release\EntryPoint.exe
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\Defensive Programming and Exceptions\EntryPoint\obj\Release\EntryPoint.pdb
