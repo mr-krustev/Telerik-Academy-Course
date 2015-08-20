@@ -1,0 +1,6 @@
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\RotatingMatrix\Matrix.Logic\bin\Debug\Matrix.Logic.exe.config
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\RotatingMatrix\Matrix.Logic\bin\Debug\Matrix.Logic.exe
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\RotatingMatrix\Matrix.Logic\bin\Debug\Matrix.Logic.pdb
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\RotatingMatrix\Matrix.Logic\obj\Debug\Matrix.Logic.csprojResolveAssemblyReference.cache
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\RotatingMatrix\Matrix.Logic\obj\Debug\Matrix.Logic.exe
+C:\Users\Martin\Desktop\Telerik\Telerik Academy\High Quality Code\RotatingMatrix\Matrix.Logic\obj\Debug\Matrix.Logic.pdb
